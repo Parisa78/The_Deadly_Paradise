@@ -10,17 +10,22 @@ public class PlayerController : MonoBehaviour
     [Range(0f, 1f)] public float fallLongAmount;
     [Range(0f, 1f)] public float fallShortAmount;
     private Vector3 position_before_jump; /// <summary>
+
+    public GameObject[] swords;
+    int swordIdx;
     /// just y needed
     /// </summary>
     bool jump;
     bool jumpHeld;
     bool on_ground;
+    bool can_jump;
 
     private Rigidbody2D rb;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        swordIdx = 0;
     }
     void Start()
     {
@@ -28,6 +33,7 @@ public class PlayerController : MonoBehaviour
         jump = false;
         jumpHeld = false;
         on_ground = true;
+        can_jump = false;
     }
 
     //private void Update()
@@ -63,8 +69,25 @@ public class PlayerController : MonoBehaviour
         {
             transform.position += new Vector3(-moveAmount, 0, 0);
         }
+
+        if(Input.GetKey(KeyCode.J))
+        {
+            swords[swordIdx].SetActive(true);
+            swords[swordIdx].GetComponent<SwordMovements>().Attack();
+        }
+
+        if (Input.GetKey(KeyCode.I))
+        {
+            swords[swordIdx].SetActive(true);
+            swords[swordIdx].GetComponent<SwordMovements>().DefenceMode();
+        }
+
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            changeSword();
+        }
         ////////////// jump
-        
+        //can_jump ro ezafe konim
 
         //if (jump)
         //{
@@ -81,7 +104,7 @@ public class PlayerController : MonoBehaviour
         //else if (!jumpHeld && rb.velocity.y > 0)
         //{
         //    rb.velocity += Vector2.up * Time.fixedDeltaTime * Physics2D.gravity.y * (fallShortAmount - 1);
-            
+
         //    if(transform.position.y<= position_before_jump.y)
         //    {
         //        Debug.Log("aaaaaaaaaaaaaaaaaaaaaaaaaah");
@@ -89,7 +112,24 @@ public class PlayerController : MonoBehaviour
         //        on_ground = true;
         //        transform.position = new Vector3(transform.position.x,position_before_jump.y,transform.position.z);
         //    }
-        
+
         //}
+    }
+
+    public void changeSword()
+    {
+        swords[swordIdx].SetActive(false);
+        if (++swordIdx >= swords.Length)
+            swordIdx = 0;
+        swords[swordIdx].SetActive(true);
+        StartCoroutine("ShowSword");
+    }
+
+    IEnumerable ShowSword()
+    {
+        yield return new WaitForSeconds(3);
+        if(!swords[swordIdx].GetComponent<SwordMovements>().isAttacking
+            && !swords[swordIdx].GetComponent<SwordMovements>().isInDefenceMode)
+            swords[swordIdx].SetActive(false);
     }
 }
