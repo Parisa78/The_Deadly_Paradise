@@ -63,14 +63,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\BallSubWeaponController.cs" />
+    <Compile Include="Assets\HealthBar.cs" />
+    <Compile Include="Assets\OakController.cs" />
     <Compile Include="Assets\Scripts\AnimationScript.cs" />
-    <Compile Include="Assets\Scripts\EnemyType1Controller.cs" />
+    <Compile Include="Assets\Scripts\Enemies\Bosses\BossEnemyController.cs" />
+    <Compile Include="Assets\Scripts\Enemies\EnemySubWeaponConfig.cs" />
+    <Compile Include="Assets\Scripts\Enemies\EnemySubWeaponController.cs" />
+    <Compile Include="Assets\Scripts\Enemies\EnemyType1Controller.cs" />
+    <Compile Include="Assets\Scripts\Enemies\RegularEnemyConfig.cs" />
+    <Compile Include="Assets\Scripts\Enemies\RegularEnemyController.cs" />
     <Compile Include="Assets\Scripts\Interfaces.cs" />
-    <Compile Include="Assets\Scripts\PlayerController.cs" />
-    <Compile Include="Assets\Scripts\RegularEnemyConfig.cs" />
-    <Compile Include="Assets\Scripts\RegularEnemyController.cs" />
-    <Compile Include="Assets\Scripts\SwordController.cs" />
-    <Compile Include="Assets\Scripts\SwordMovements.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\Player\SwordController.cs" />
+    <Compile Include="Assets\Scripts\Player\SwordMovements.cs" />
     <Compile Include="Assets\Scripts\Tags.cs" />
     <Reference Include="UnityEngine">
       <HintPath>D:/Programs/Unity/2019.4.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>

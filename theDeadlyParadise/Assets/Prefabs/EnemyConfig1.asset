@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: EnemyConfig1
   m_EditorClassIdentifier: 
   enemyName: Enemy1
-  maxHP: 100
-  hitAmount: 50
+  maxHP: 50
   attackMaxTime: 2
-  attackAmount: 20
+  attackAmount: 10
