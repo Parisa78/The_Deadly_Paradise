@@ -6,15 +6,19 @@ public abstract class EnemySubWeaponController : MonoBehaviour
 {
     public EnemySubWeaponConfig config;
 
-    void Awake()
+    protected virtual void Awake()
     {
         
+    }
+    protected virtual void Start()
+    {
+
     }
 
     // Update is called once per frame
     //void FixedUpdate()
     //{
-        
+
     //}
 
 
@@ -27,7 +31,8 @@ public abstract class EnemySubWeaponController : MonoBehaviour
         }
     }
 
-    protected void DestroySelf()
+    // change: added virtual
+    protected virtual void DestroySelf()
     {
         Destroy(this.gameObject);
     }

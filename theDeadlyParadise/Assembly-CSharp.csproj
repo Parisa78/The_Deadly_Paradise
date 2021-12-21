@@ -65,12 +65,17 @@
   <ItemGroup>
     <Compile Include="Assets\BallSubWeaponController.cs" />
     <Compile Include="Assets\HealthBar.cs" />
-    <Compile Include="Assets\OakController.cs" />
+    <Compile Include="Assets\HellOfMirrorsEnemySpawner.cs" />
+    <Compile Include="Assets\MovingRootController.cs" />
     <Compile Include="Assets\Scripts\AnimationScript.cs" />
     <Compile Include="Assets\Scripts\Enemies\Bosses\BossEnemyController.cs" />
+    <Compile Include="Assets\Scripts\Enemies\Bosses\Oak\OakController.cs" />
+    <Compile Include="Assets\Scripts\Enemies\Bosses\Oak\OakRootsDanger.cs" />
+    <Compile Include="Assets\Scripts\Enemies\Bosses\Oak\OakSproutingRoot.cs" />
     <Compile Include="Assets\Scripts\Enemies\EnemySubWeaponConfig.cs" />
     <Compile Include="Assets\Scripts\Enemies\EnemySubWeaponController.cs" />
     <Compile Include="Assets\Scripts\Enemies\EnemyType1Controller.cs" />
+    <Compile Include="Assets\Scripts\Enemies\HellOfMirrorsEnemyController.cs" />
     <Compile Include="Assets\Scripts\Enemies\RegularEnemyConfig.cs" />
     <Compile Include="Assets\Scripts\Enemies\RegularEnemyController.cs" />
     <Compile Include="Assets\Scripts\Interfaces.cs" />
