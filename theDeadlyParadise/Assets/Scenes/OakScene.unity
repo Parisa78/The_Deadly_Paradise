@@ -1804,6 +1804,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1314914631510844533, guid: 9a978845578474545901025982796965,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 1314914631614204386, guid: 9a978845578474545901025982796965,
         type: 3}
       propertyPath: m_Name

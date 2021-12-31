@@ -66,6 +66,7 @@
     <Compile Include="Assets\BallSubWeaponController.cs" />
     <Compile Include="Assets\HealthBar.cs" />
     <Compile Include="Assets\HellOfMirrorsEnemySpawner.cs" />
+    <Compile Include="Assets\JumpingEnemyController.cs" />
     <Compile Include="Assets\MovingRootController.cs" />
     <Compile Include="Assets\Scripts\AnimationScript.cs" />
     <Compile Include="Assets\Scripts\Enemies\Bosses\BossEnemyController.cs" />

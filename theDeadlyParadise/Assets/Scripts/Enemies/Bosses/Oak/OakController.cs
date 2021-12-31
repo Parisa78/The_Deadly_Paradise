@@ -155,9 +155,12 @@ public class OakController : BossEnemyController
 
     protected override void OnTriggerEnter2D(Collider2D collision)
     {
+        base.OnTriggerEnter2D(collision);
         if (collision.gameObject.CompareTag(Tags.Player.ToString()))
         {
-            collision.gameObject.GetComponent<PlayerController>().ChangeHealth(-1 * config.attackAmount);
+            var player = collision.gameObject.GetComponent<PlayerController>();
+            if(! player.swords[player.swordIdx].GetComponent<SwordMovements>().isInDefenceMode)
+                collision.gameObject.GetComponent<PlayerController>().ChangeHealth(-1 * config.attackAmount);
         }
     }
 }
