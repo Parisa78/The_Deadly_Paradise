@@ -64,6 +64,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\BallSubWeaponController.cs" />
+    <Compile Include="Assets\Cainos\Pixel Art Top Down - Basic\Script\CameraFollow.cs" />
+    <Compile Include="Assets\Cainos\Pixel Art Top Down - Basic\Script\LayerTrigger.cs" />
+    <Compile Include="Assets\Cainos\Pixel Art Top Down - Basic\Script\PropsAltar.cs" />
+    <Compile Include="Assets\Cainos\Pixel Art Top Down - Basic\Script\SpriteColorAnimation.cs" />
+    <Compile Include="Assets\Cainos\Pixel Art Top Down - Basic\Script\TopDownCharacterController.cs" />
     <Compile Include="Assets\HealthBar.cs" />
     <Compile Include="Assets\HellOfMirrorsEnemySpawner.cs" />
     <Compile Include="Assets\JumpingEnemyController.cs" />
@@ -84,6 +89,8 @@
     <Compile Include="Assets\Scripts\Player\SwordController.cs" />
     <Compile Include="Assets\Scripts\Player\SwordMovements.cs" />
     <Compile Include="Assets\Scripts\Tags.cs" />
+    <None Include="Assets\Cainos\Pixel Art Top Down - Basic\Shader\SH Sprite Shadow.shader" />
+    <None Include="Assets\Cainos\Pixel Art Top Down - Basic\Shader\SH Sprite Shadow Mask.shader" />
     <Reference Include="UnityEngine">
       <HintPath>D:/Programs/Unity/2019.4.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

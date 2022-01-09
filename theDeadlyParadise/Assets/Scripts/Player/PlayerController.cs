@@ -15,6 +15,7 @@ public class PlayerController : MonoBehaviour
     public HealthBar healthBar;
     public GameObject[] swords;
     public int hitAmount;
+    public Animator animator;
     public enum Direction
     {
         //Up,
@@ -33,6 +34,7 @@ public class PlayerController : MonoBehaviour
     bool can_jump;
 
     private Rigidbody2D rb;
+    private bool sp;
 
     private void Awake()
     {
@@ -40,6 +42,7 @@ public class PlayerController : MonoBehaviour
         swordIdx = 0;
         healthBar.SetMaxHealth(100);
         direction = Direction.Right;
+        sp = false;
     }
     void Start()
     {
@@ -61,6 +64,16 @@ public class PlayerController : MonoBehaviour
             on_ground = false;
         }
         jumpHeld = (!on_ground && Input.GetKey(KeyCode.Space)) ? true : false;
+        
+        //if((Input.GetKey(KeyCode.W) && !can_jump) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D)
+        //    || Input.GetKey(KeyCode.A))
+        //{
+        //    animator.SetFloat("Speed", 1);
+        //}
+        //else
+        //{
+        //    animator.SetFloat("Speed", 0);
+        //}
     }
     // Update is called once per frame
     void FixedUpdate()
@@ -73,30 +86,34 @@ public class PlayerController : MonoBehaviour
         }
 
         Direction tempDir = direction;
+        sp = false;
         if (Input.GetKey(KeyCode.W) && !can_jump)
         {
             transform.position += new Vector3(0, moveAmount, 0);
+            sp = true;
             //tempDir = Direction.Up;
         }
 
         if (Input.GetKey(KeyCode.S))
         {
             transform.position += new Vector3(0, -moveAmount, 0);
+            sp = true;
             //tempDir = Direction.Down;
         }
 
         if (Input.GetKey(KeyCode.D))
         {
             transform.position += new Vector3(moveAmount,0 , 0);
+            sp = true;
             tempDir = Direction.Right;
         }
 
         if (Input.GetKey(KeyCode.A))
         {
             transform.position += new Vector3(-moveAmount, 0, 0);
+            sp = true;
             tempDir = Direction.Left;
         }
-
         direction = tempDir;
         ChangeDirection(direction);
 
@@ -104,6 +121,11 @@ public class PlayerController : MonoBehaviour
         {
             swords[swordIdx].SetActive(true);
             swords[swordIdx].GetComponent<SwordMovements>().Attack();
+            animator.SetBool("IsAttacking", true);
+        }
+        else
+        {
+            animator.SetBool("IsAttacking", false);
         }
 
         if (Input.GetKeyDown(KeyCode.L))
@@ -136,6 +158,7 @@ public class PlayerController : MonoBehaviour
             //}
 
         }
+        animator.SetBool("Speed", sp);
         ////////////// jump
         //can_jump ro ezafe konim
 
@@ -212,6 +235,7 @@ public class PlayerController : MonoBehaviour
     {
         can_jump = true;
         rb.gravityScale = 1;
+        Debug.Log("enter oak scene");
     }
 
     public void ChangeHealth(int amount)
