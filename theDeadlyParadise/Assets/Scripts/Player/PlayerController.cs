@@ -46,6 +46,9 @@ public class PlayerController : MonoBehaviour
     }
     void Start()
     {
+        //for changing scene 
+        ChangingSceneSettings();
+        //end
         rb.velocity = Vector2.zero;
         jump = false;
         jumpHeld = false;
@@ -241,6 +244,33 @@ public class PlayerController : MonoBehaviour
     public void ChangeHealth(int amount)
     {
         healthBar.ChangeHealth(amount);
+    }
+
+    public void ChangingSceneSettings()
+    {
+        switch (SceneManager.GetActiveScene().name)
+        {
+            case "Village1":
+                if (gameStatus.instance.prevScene == "Village2")
+                {
+                    transform.position = FindObjectOfType<scene_transmissin_controler>().transform.position+ new Vector3(0,0.8f,0);
+                }
+                break;
+
+            case "Village2":
+                if (gameStatus.instance.prevScene == "Village3")
+                {
+                    transform.position = GameObject.Find("transmission_scene3").transform.position + new Vector3(0, -1.5f, 0);
+                }
+                break;
+
+            case "Village3":
+                if (gameStatus.instance.prevScene == "Village4")
+                {
+                    transform.position = GameObject.Find("transmission_scene_4").transform.position + new Vector3(0, 0.8f, 0);
+                }
+                break;
+        }
     }
 
 }
