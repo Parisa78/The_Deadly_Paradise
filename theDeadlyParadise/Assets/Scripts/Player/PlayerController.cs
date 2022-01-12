@@ -25,6 +25,7 @@ public class PlayerController : MonoBehaviour
     }
     public Direction direction;
     // change: public
+    public int unlockedSwordCount;
     public int swordIdx;
     /// just y needed
     /// </summary>
@@ -40,7 +41,6 @@ public class PlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         swordIdx = 0;
-        healthBar.SetMaxHealth(100);
         direction = Direction.Right;
         sp = false;
     }
@@ -49,6 +49,10 @@ public class PlayerController : MonoBehaviour
         //for changing scene 
         ChangingSceneSettings();
         //end
+        healthBar = GameObject.Find("Health Bar").GetComponent<HealthBar>();
+        healthBar.SetMaxHealth(100);
+        healthBar.SetHealth(gameStatus.instance.playerHP);
+        unlockedSwordCount = gameStatus.instance.unlockedSwordCount;
         rb.velocity = Vector2.zero;
         jump = false;
         jumpHeld = false;
@@ -85,7 +89,21 @@ public class PlayerController : MonoBehaviour
         {
             swords[swordIdx].SetActive(true);
             swords[swordIdx].GetComponent<SwordMovements>().DefenceMode();
+            animator.SetBool("Speed", false);
             return;
+        }
+
+        if (Input.GetKey(KeyCode.J))
+        {
+            swords[swordIdx].SetActive(true);
+            swords[swordIdx].GetComponent<SwordMovements>().Attack();
+            animator.SetBool("IsAttacking", true);
+            animator.SetBool("Speed", false);
+            return;
+        }
+        else
+        {
+            animator.SetBool("IsAttacking", false);
         }
 
         Direction tempDir = direction;
@@ -120,16 +138,6 @@ public class PlayerController : MonoBehaviour
         direction = tempDir;
         ChangeDirection(direction);
 
-        if(Input.GetKey(KeyCode.J))
-        {
-            swords[swordIdx].SetActive(true);
-            swords[swordIdx].GetComponent<SwordMovements>().Attack();
-            animator.SetBool("IsAttacking", true);
-        }
-        else
-        {
-            animator.SetBool("IsAttacking", false);
-        }
 
         if (Input.GetKeyDown(KeyCode.L))
         {
@@ -220,7 +228,7 @@ public class PlayerController : MonoBehaviour
     public void changeSword()
     {
         swords[swordIdx].SetActive(false);
-        if (++swordIdx >= swords.Length)
+        if (++swordIdx >= unlockedSwordCount)
             swordIdx = 0;
         swords[swordIdx].SetActive(true);
         StartCoroutine(ShowSword());

@@ -27,6 +27,7 @@ public class HealthBar : MonoBehaviour
     public void SetHealth(int health)
     {
         slider.value = health;
+        gameStatus.instance.playerHP = health;
         this.health = health;
     }
 

@@ -28,9 +28,10 @@ public class Dialoguemanager : MonoBehaviour
         dialogueisactive = true;
         DialogueBox.SetActive(true);
         sentences.Clear();
-        nameTxt.text = dialogue.name+ ":";
+        nameTxt.text = dialogue.name+(dialogue.name.Length == 0? "" : ":");
         foreach (var sentence in dialogue.sentences)
         {
+            //Debug.Log();
             sentences.Enqueue(sentence);
         }
         DisplayNextSentence();

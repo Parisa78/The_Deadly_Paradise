@@ -73,6 +73,7 @@
     <Compile Include="Assets\HellOfMirrorsEnemySpawner.cs" />
     <Compile Include="Assets\JumpingEnemyController.cs" />
     <Compile Include="Assets\MovingRootController.cs" />
+    <Compile Include="Assets\SaveStatue.cs" />
     <Compile Include="Assets\Scripts\AnimationScript.cs" />
     <Compile Include="Assets\Scripts\Dialogue.cs" />
     <Compile Include="Assets\Scripts\Dialoguemanager.cs" />
@@ -80,6 +81,7 @@
     <Compile Include="Assets\Scripts\Enemies\Bosses\Oak\OakController.cs" />
     <Compile Include="Assets\Scripts\Enemies\Bosses\Oak\OakRootsDanger.cs" />
     <Compile Include="Assets\Scripts\Enemies\Bosses\Oak\OakSproutingRoot.cs" />
+    <Compile Include="Assets\Scripts\Enemies\BullEnemyController.cs" />
     <Compile Include="Assets\Scripts\Enemies\EnemySubWeaponConfig.cs" />
     <Compile Include="Assets\Scripts\Enemies\EnemySubWeaponController.cs" />
     <Compile Include="Assets\Scripts\Enemies\EnemyType1Controller.cs" />
@@ -90,9 +92,11 @@
     <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
     <Compile Include="Assets\Scripts\Player\SwordController.cs" />
     <Compile Include="Assets\Scripts\Player\SwordMovements.cs" />
+    <Compile Include="Assets\Scripts\SaveSystem.cs" />
     <Compile Include="Assets\Scripts\Tags.cs" />
     <Compile Include="Assets\Scripts\gameStatus.cs" />
     <Compile Include="Assets\Scripts\reeve's diaogue\reeve_dialogue.cs" />
+    <Compile Include="Assets\Scripts\saveData.cs" />
     <Compile Include="Assets\Scripts\scene_transmissin_controler.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />

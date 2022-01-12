@@ -1,0 +1,833 @@
+fileFormatVersion: 2
+guid: 6d43f18eb3524984f96e0a375bcb5283
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3942963066912593641
+    second: gnu-120x100_0
+  - first:
+      213: 7503701320763199509
+    second: gnu-120x100_1
+  - first:
+      213: 7812633758818531168
+    second: gnu-120x100_2
+  - first:
+      213: 2106139737486561095
+    second: gnu-120x100_3
+  - first:
+      213: 1740826795378043841
+    second: gnu-120x100_4
+  - first:
+      213: 6710510012453609964
+    second: gnu-120x100_5
+  - first:
+      213: 1013290340943532535
+    second: gnu-120x100_6
+  - first:
+      213: -514826585725313710
+    second: gnu-120x100_7
+  - first:
+      213: 1306672007837535113
+    second: gnu-120x100_8
+  - first:
+      213: 4239326465255125784
+    second: gnu-120x100_9
+  - first:
+      213: -7883355694554514309
+    second: gnu-120x100_10
+  - first:
+      213: -8998488493317711125
+    second: gnu-120x100_11
+  - first:
+      213: 1492369734812147667
+    second: gnu-120x100_12
+  - first:
+      213: -6449678900448679447
+    second: gnu-120x100_13
+  - first:
+      213: -6851935793672311635
+    second: gnu-120x100_14
+  - first:
+      213: -3839354775419561699
+    second: gnu-120x100_15
+  - first:
+      213: 5483735655444105919
+    second: gnu-120x100_16
+  - first:
+      213: 3090177069351678106
+    second: gnu-120x100_17
+  - first:
+      213: -7912106431651442540
+    second: gnu-120x100_18
+  - first:
+      213: -6518609966707648781
+    second: gnu-120x100_19
+  - first:
+      213: -4789754053364342273
+    second: gnu-120x100_20
+  - first:
+      213: -2571168594499759984
+    second: gnu-120x100_21
+  - first:
+      213: -599041127683011547
+    second: gnu-120x100_22
+  - first:
+      213: -4938659314084120188
+    second: gnu-120x100_23
+  - first:
+      213: 1505072683922470568
+    second: gnu-120x100_24
+  - first:
+      213: 1934286709026379218
+    second: gnu-120x100_25
+  - first:
+      213: 2596084123877762303
+    second: gnu-120x100_26
+  - first:
+      213: 4686845344492576775
+    second: gnu-120x100_27
+  - first:
+      213: 5208499663355402097
+    second: gnu-120x100_28
+  - first:
+      213: -1008844984240790807
+    second: gnu-120x100_29
+  - first:
+      213: -2787973830482118985
+    second: gnu-120x100_30
+  - first:
+      213: -4407919181162542793
+    second: gnu-120x100_31
+  - first:
+      213: -7050383280048883636
+    second: gnu-120x100_32
+  - first:
+      213: -903057021171847316
+    second: gnu-120x100_33
+  - first:
+      213: 6389632784503771203
+    second: gnu-120x100_34
+  - first:
+      213: 4488813938394170179
+    second: gnu-120x100_35
+  - first:
+      213: 8622799117714481173
+    second: gnu-120x100_36
+  - first:
+      213: -7527789999704660770
+    second: gnu-120x100_37
+  - first:
+      213: 8864837077881086535
+    second: gnu-120x100_38
+  - first:
+      213: 1948914406247035249
+    second: gnu-120x100_39
+  - first:
+      213: -3250026631877037569
+    second: gnu-120x100_40
+  - first:
+      213: -2986182385700650859
+    second: gnu-120x100_41
+  - first:
+      213: 4562352582064800996
+    second: gnu-120x100_42
+  - first:
+      213: -8032009331609921180
+    second: gnu-120x100_43
+  - first:
+      213: -4402805831304830902
+    second: gnu-120x100_44
+  - first:
+      213: 3475642219850988534
+    second: gnu-120x100_45
+  - first:
+      213: -8811611687546648322
+    second: gnu-120x100_46
+  - first:
+      213: 7333282912362276797
+    second: gnu-120x100_47
+  - first:
+      213: 9069982280624914265
+    second: gnu-120x100_48
+  - first:
+      213: 1706182532360116772
+    second: gnu-120x100_49
+  - first:
+      213: -182721490556559183
+    second: gnu-120x100_50
+  - first:
+      213: -2784452770157927040
+    second: gnu-120x100_51
+  - first:
+      213: -5626340524633424472
+    second: gnu-120x100_52
+  - first:
+      213: -4748344944397798653
+    second: gnu-120x100_53
+  - first:
+      213: 5391673990449488096
+    second: gnu-120x100_54
+  - first:
+      213: -4486968068670409851
+    second: gnu-120x100_55
+  - first:
+      213: -8190746935651142938
+    second: gnu-120x100_56
+  - first:
+      213: 6042702610672699509
+    second: gnu-120x100_57
+  - first:
+      213: 6973024924526810120
+    second: gnu-120x100_58
+  - first:
+      213: 8918164103484103838
+    second: gnu-120x100_59
+  - first:
+      213: 8514999725398740026
+    second: gnu-120x100_60
+  - first:
+      213: -766374545372437941
+    second: gnu-120x100_61
+  - first:
+      213: 3454761660341691387
+    second: gnu-120x100_62
+  - first:
+      213: -2187294768140898118
+    second: gnu-120x100_63
+  - first:
+      213: -6683118126149161857
+    second: gnu-120x100_64
+  - first:
+      213: 6701425310081553070
+    second: gnu-120x100_65
+  - first:
+      213: 93519867466782148
+    second: gnu-120x100_66
+  - first:
+      213: -5343950054235479556
+    second: gnu-120x100_67
+  - first:
+      213: -7323300068656483640
+    second: gnu-120x100_68
+  - first:
+      213: -3926419532099358659
+    second: gnu-120x100_69
+  - first:
+      213: -553816281599237688
+    second: gnu-120x100_70
+  - first:
+      213: 7172757594529411335
+    second: gnu-120x100_71
+  - first:
+      213: -7875248507486816815
+    second: gnu-120x100_72
+  - first:
+      213: -8588505148375399102
+    second: gnu-120x100_73
+  - first:
+      213: 8969755658902107985
+    second: gnu-120x100_74
+  - first:
+      213: 8603638287436710100
+    second: gnu-120x100_75
+  - first:
+      213: -5979845531152140806
+    second: gnu-120x100_76
+  - first:
+      213: -578109836692502745
+    second: gnu-120x100_77
+  - first:
+      213: -1566781237085745061
+    second: gnu-120x100_78
+  - first:
+      213: -36937745354605704
+    second: gnu-120x100_79
+  - first:
+      213: 3467255009072423559
+    second: gnu-120x100_80
+  - first:
+      213: -6383196213374151277
+    second: gnu-120x100_81
+  - first:
+      213: 3873257253865782428
+    second: gnu-120x100_82
+  - first:
+      213: 2768832286991133464
+    second: gnu-120x100_83
+  - first:
+      213: -7613173585543814030
+    second: gnu-120x100_84
+  - first:
+      213: 8556285709592457633
+    second: gnu-120x100_85
+  - first:
+      213: -4107014870278082384
+    second: gnu-120x100_86
+  - first:
+      213: -1107005257986567427
+    second: gnu-120x100_87
+  - first:
+      213: -609213658175488638
+    second: gnu-120x100_88
+  - first:
+      213: 3145460787948939887
+    second: gnu-120x100_89
+  - first:
+      213: -267031614923327263
+    second: gnu-120x100_90
+  - first:
+      213: 8454198924800281257
+    second: gnu-120x100_91
+  - first:
+      213: 1030160558132553715
+    second: gnu-120x100_92
+  - first:
+      213: 6960714518179840287
+    second: gnu-120x100_93
+  - first:
+      213: 6257163501866918066
+    second: gnu-120x100_94
+  - first:
+      213: -6994977337658296573
+    second: gnu-120x100_95
+  - first:
+      213: -7898622875463550162
+    second: gnu-120x100_96
+  - first:
+      213: 7115900258881254809
+    second: gnu-120x100_97
+  - first:
+      213: 7772221807631733820
+    second: gnu-120x100_98
+  - first:
+      213: -8570862420034687361
+    second: gnu-120x100_99
+  - first:
+      213: 893180217940154839
+    second: gnu-120x100_100
+  - first:
+      213: -3590190261098301614
+    second: gnu-120x100_101
+  - first:
+      213: 4292220192949847274
+    second: gnu-120x100_102
+  - first:
+      213: -4697347939486125246
+    second: gnu-120x100_103
+  - first:
+      213: -1874035485104948645
+    second: gnu-120x100_104
+  - first:
+      213: -9180041186402271232
+    second: gnu-120x100_105
+  - first:
+      213: 8950310210969797505
+    second: gnu-120x100_106
+  - first:
+      213: 7606212740051624735
+    second: gnu-120x100_107
+  - first:
+      213: -2526798905218979599
+    second: gnu-120x100_108
+  - first:
+      213: 4249827470712066616
+    second: gnu-120x100_109
+  - first:
+      213: -246005187765900043
+    second: gnu-120x100_110
+  - first:
+      213: 5890152986126752568
+    second: gnu-120x100_111
+  - first:
+      213: -6420249876840454030
+    second: gnu-120x100_112
+  - first:
+      213: 1666911157862486444
+    second: gnu-120x100_113
+  - first:
+      213: 3225843855559944295
+    second: gnu-120x100_114
+  - first:
+      213: 4039764931238546488
+    second: gnu-120x100_115
+  - first:
+      213: 178020519199884218
+    second: gnu-120x100_116
+  - first:
+      213: 8342196074304913260
+    second: gnu-120x100_117
+  - first:
+      213: -188434227954926551
+    second: gnu-120x100_118
+  - first:
+      213: 964195275182495703
+    second: gnu-120x100_119
+  - first:
+      213: 3688430176084924130
+    second: gnu-120x100_120
+  - first:
+      213: 5132060163295324782
+    second: gnu-120x100_121
+  - first:
+      213: -4986563708601909979
+    second: gnu-120x100_122
+  - first:
+      213: 68481244471488830
+    second: gnu-120x100_123
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gnu-120x100_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 120
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e65fc5c40838b630800000000000000
+      internalID: 3942963066912593641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnu-120x100_1
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 300
+        width: 120
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51058bc4890822860800000000000000
+      internalID: 7503701320763199509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnu-120x100_2
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 300
+        width: 120
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0677a92b20d0c6c60800000000000000
+      internalID: 7812633758818531168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnu-120x100_3
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 300
+        width: 120
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74f8834bee28a3d10800000000000000
+      internalID: 2106139737486561095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnu-120x100_4
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 300
+        width: 120
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb6df14fb8a82810800000000000000
+      internalID: 1740826795378043841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnu-120x100_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 120
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce1eff17d45802d50800000000000000
+      internalID: 6710510012453609964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnu-120x100_6
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 200
+        width: 120
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f1164a423eef0e00800000000000000
+      internalID: 1013290340943532535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnu-120x100_7
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 200
+        width: 120
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d5aeca2f7fad8f0800000000000000
+      internalID: -514826585725313710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnu-120x100_8
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 200
+        width: 120
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b4a11a44b322210800000000000000
+      internalID: 1306672007837535113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnu-120x100_9
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 200
+        width: 120
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 813b17095fc15da30800000000000000
+      internalID: 4239326465255125784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnu-120x100_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 100
+        width: 120
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c760c73c1b89290800000000000000
+      internalID: -7883355694554514309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnu-120x100_11
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 100
+        width: 120
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bea9b503462fe1380800000000000000
+      internalID: -8998488493317711125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnu-120x100_12
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 100
+        width: 120
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df950ded56f5b410800000000000000
+      internalID: 1492369734812147667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnu-120x100_13
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 100
+        width: 120
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e9ac6f36332e76a0800000000000000
+      internalID: -6449678900448679447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnu-120x100_14
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 100
+        width: 120
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daca062e2b809e0a0800000000000000
+      internalID: -6851935793672311635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnu-120x100_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 120
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d19da6c6c2fd7bac0800000000000000
+      internalID: -3839354775419561699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnu-120x100_16
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 120
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbac3e846842a1c40800000000000000
+      internalID: 5483735655444105919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
