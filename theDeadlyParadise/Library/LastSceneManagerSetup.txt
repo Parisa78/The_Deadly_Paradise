@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/VillagePortals.unity
+- path: Assets/Scenes/dead_menu.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
