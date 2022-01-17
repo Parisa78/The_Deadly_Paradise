@@ -53,4 +53,11 @@ public static class SaveSystem
         formatter.Serialize(stream, data);
         stream.Close();
     }
+
+
+    // quit for quit button
+    public static void QuitGame()
+    {
+        Application.Quit();
+    }
 }
