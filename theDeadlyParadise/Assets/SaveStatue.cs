@@ -10,7 +10,7 @@ public class SaveStatue : MonoBehaviour
     void Start()
     {
         player = FindObjectOfType<PlayerController>();
-        dialogue = new Dialogue("", new string[] { "Your data is saved!"});
+        dialogue = new Dialogue("", new string[] { "Your data is saved!"},()=> { },null);
     }
 
     // Update is called once per frame

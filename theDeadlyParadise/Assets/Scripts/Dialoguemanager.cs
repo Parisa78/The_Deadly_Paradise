@@ -13,6 +13,7 @@ public class Dialoguemanager : MonoBehaviour
     private TextMeshProUGUI dialogueTxt;
     private GameObject DialogueBox;
     private bool dialogueisactive;
+    private Dialogue activeDialogue;
     void Start()
     {
         DialogueBox = GameObject.Find("Dialogue_Box");
@@ -25,7 +26,9 @@ public class Dialoguemanager : MonoBehaviour
 
     public void StartDialogue(Dialogue dialogue)
     {
+        dialogue.beforeDialogueFunction();
         dialogueisactive = true;
+        activeDialogue = dialogue;
         DialogueBox.SetActive(true);
         sentences.Clear();
         nameTxt.text = dialogue.name+(dialogue.name.Length == 0? "" : ":");
@@ -52,6 +55,7 @@ public class Dialoguemanager : MonoBehaviour
     {
         DialogueBox.SetActive(false);
         dialogueisactive = false;
+        activeDialogue.afterDialogueFunction();
     }
 
     // Update is called once per frame

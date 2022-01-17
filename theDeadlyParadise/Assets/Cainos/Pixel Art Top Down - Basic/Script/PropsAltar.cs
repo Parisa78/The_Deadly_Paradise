@@ -33,8 +33,6 @@ namespace Cainos.PixelArtTopDown_Basic
         {
             if (runes[0].color == targetColor)
                 targetColor.a = 1 - targetColor.a;
-            Debug.Log(runes[0].color);
-            Debug.Log(targetColor);
             curColor = Color.Lerp(curColor, targetColor, lerpSpeed * Time.deltaTime);
 
             foreach (var r in runes)

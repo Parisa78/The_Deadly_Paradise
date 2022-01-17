@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour
     public GameObject[] swords;
     public int hitAmount;
     public Animator animator;
+    public bool canReadInput;
     public enum Direction
     {
         //Up,
@@ -43,6 +44,7 @@ public class PlayerController : MonoBehaviour
         swordIdx = 0;
         direction = Direction.Right;
         sp = false;
+        canReadInput = true;
     }
     void Start()
     {
@@ -61,15 +63,24 @@ public class PlayerController : MonoBehaviour
             enterOakScene();
         else
             can_jump = false;
+        canReadInput = true;
     }
 
     private void Update()
     {
-        if (can_jump && on_ground && Input.GetKeyDown(KeyCode.Space))
+        if (canReadInput)
         {
-            jump = true; //??
-            on_ground = false;
+            if (can_jump && on_ground && Input.GetKeyDown(KeyCode.Space))
+            {
+                jump = true; //??
+                on_ground = false;
+            }
+            if (Input.GetKeyDown(KeyCode.L))
+            {
+                changeSword();
+            }
         }
+
         jumpHeld = (!on_ground && Input.GetKey(KeyCode.Space)) ? true : false;
         
         //if((Input.GetKey(KeyCode.W) && !can_jump) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D)
@@ -85,90 +96,93 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (Input.GetKey(KeyCode.I))
-        {
-            swords[swordIdx].SetActive(true);
-            swords[swordIdx].GetComponent<SwordMovements>().DefenceMode();
-            animator.SetBool("Speed", false);
-            return;
-        }
-
-        if (Input.GetKey(KeyCode.J))
-        {
-            swords[swordIdx].SetActive(true);
-            swords[swordIdx].GetComponent<SwordMovements>().Attack();
-            animator.SetBool("IsAttacking", true);
-            animator.SetBool("Speed", false);
-            return;
-        }
-        else
-        {
-            animator.SetBool("IsAttacking", false);
-        }
-
-        Direction tempDir = direction;
         sp = false;
-        if (Input.GetKey(KeyCode.W) && !can_jump)
+        Direction tempDir = direction;
+        //if a dialogue is being played, the default behavior is to not move (no input reading!)
+        if (canReadInput)
         {
-            transform.position += new Vector3(0, moveAmount, 0);
-            sp = true;
-            //tempDir = Direction.Up;
-        }
+            if (Input.GetKey(KeyCode.I))
+            {
+                swords[swordIdx].SetActive(true);
+                swords[swordIdx].GetComponent<SwordMovements>().DefenceMode();
+                animator.SetBool("Speed", false);
+                return;
+            }
 
-        if (Input.GetKey(KeyCode.S))
-        {
-            transform.position += new Vector3(0, -moveAmount, 0);
-            sp = true;
-            //tempDir = Direction.Down;
-        }
+            if (Input.GetKey(KeyCode.J))
+            {
+                swords[swordIdx].SetActive(true);
+                swords[swordIdx].GetComponent<SwordMovements>().Attack();
+                animator.SetBool("IsAttacking", true);
+                animator.SetBool("Speed", false);
+                return;
+            }
+            else
+            {
+                animator.SetBool("IsAttacking", false);
+            }
 
-        if (Input.GetKey(KeyCode.D))
-        {
-            transform.position += new Vector3(moveAmount,0 , 0);
-            sp = true;
-            tempDir = Direction.Right;
-        }
 
-        if (Input.GetKey(KeyCode.A))
-        {
-            transform.position += new Vector3(-moveAmount, 0, 0);
-            sp = true;
-            tempDir = Direction.Left;
+            if (Input.GetKey(KeyCode.W) && !can_jump)
+            {
+                transform.position += new Vector3(0, moveAmount, 0);
+                sp = true;
+                //tempDir = Direction.Up;
+            }
+
+            if (Input.GetKey(KeyCode.S))
+            {
+                transform.position += new Vector3(0, -moveAmount, 0);
+                sp = true;
+                //tempDir = Direction.Down;
+            }
+
+            if (Input.GetKey(KeyCode.D))
+            {
+                transform.position += new Vector3(moveAmount, 0, 0);
+                sp = true;
+                tempDir = Direction.Right;
+            }
+
+            if (Input.GetKey(KeyCode.A))
+            {
+                transform.position += new Vector3(-moveAmount, 0, 0);
+                sp = true;
+                tempDir = Direction.Left;
+            }
+
+            
+
+            if (jump)
+            {
+                //position_before_jump = transform.position;
+                rb.velocity = Vector2.up * jumpAmount;
+                jump = false;
+            }
+
+            if (jumpHeld && rb.velocity.y > 0)
+            {
+                rb.velocity += Vector2.up * Time.fixedDeltaTime * Physics2D.gravity.y * (fallLongAmount - 1);
+            }
+
+            else if (!jumpHeld && rb.velocity.y > 0)
+            {
+                rb.velocity += Vector2.up * Time.fixedDeltaTime * Physics2D.gravity.y * (fallShortAmount - 1);
+
+                //if (transform.position.y <= position_before_jump.y)
+                //{
+                //    Debug.Log("aaaaaaaaaaaaaaaaaaaaaaaaaah");
+                //    rb.velocity = Vector2.zero;
+                //    on_ground = true;
+                //    transform.position = new Vector3(transform.position.x, position_before_jump.y, transform.position.z);
+                //}
+
+            }
         }
+        
+
         direction = tempDir;
         ChangeDirection(direction);
-
-
-        if (Input.GetKeyDown(KeyCode.L))
-        {
-            changeSword();
-        }
-
-        if (jump)
-        {
-            //position_before_jump = transform.position;
-            rb.velocity = Vector2.up * jumpAmount;
-            jump = false;
-        }
-
-        if (jumpHeld && rb.velocity.y > 0)
-        {
-            rb.velocity += Vector2.up * Time.fixedDeltaTime * Physics2D.gravity.y * (fallLongAmount - 1);
-        }
-
-        else if (!jumpHeld && rb.velocity.y > 0)
-        {
-            rb.velocity += Vector2.up * Time.fixedDeltaTime * Physics2D.gravity.y * (fallShortAmount - 1);
-
-            //if (transform.position.y <= position_before_jump.y)
-            //{
-            //    Debug.Log("aaaaaaaaaaaaaaaaaaaaaaaaaah");
-            //    rb.velocity = Vector2.zero;
-            //    on_ground = true;
-            //    transform.position = new Vector3(transform.position.x, position_before_jump.y, transform.position.z);
-            //}
-
-        }
         animator.SetBool("Speed", sp);
         ////////////// jump
         //can_jump ro ezafe konim
@@ -228,7 +242,7 @@ public class PlayerController : MonoBehaviour
     public void changeSword()
     {
         swords[swordIdx].SetActive(false);
-        if (++swordIdx >= unlockedSwordCount)
+        if (++swordIdx >= gameStatus.instance.unlockedSwordCount)
             swordIdx = 0;
         swords[swordIdx].SetActive(true);
         StartCoroutine(ShowSword());

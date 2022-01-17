@@ -40,10 +40,6 @@ public class SwordMovements : MonoBehaviour
                 this.gameObject.SetActive(false);
             }
         }
-        if(player.direction == PlayerController.Direction.Left)
-        {
-
-        }
         currentRotationVal = player.direction == PlayerController.Direction.Right?
             rotationAngles[0] : rotationAngles[1];
 
