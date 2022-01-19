@@ -95,6 +95,7 @@
     <Compile Include="Assets\Scripts\Player\SwordController.cs" />
     <Compile Include="Assets\Scripts\Player\SwordMovements.cs" />
     <Compile Include="Assets\Scripts\SaveSystem.cs" />
+    <Compile Include="Assets\Scripts\SettingsMenu.cs" />
     <Compile Include="Assets\Scripts\Tags.cs" />
     <Compile Include="Assets\Scripts\gameStatus.cs" />
     <Compile Include="Assets\Scripts\reeve's diaogue\reeve_dialogue.cs" />
