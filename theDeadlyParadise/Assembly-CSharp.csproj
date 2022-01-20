@@ -101,6 +101,7 @@
     <Compile Include="Assets\Scripts\reeve's diaogue\reeve_dialogue.cs" />
     <Compile Include="Assets\Scripts\saveData.cs" />
     <Compile Include="Assets\Scripts\scene_transmissin_controler.cs" />
+    <Compile Include="Assets\camera_mover.cs" />
     <Compile Include="Assets\lockedSwordController.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />

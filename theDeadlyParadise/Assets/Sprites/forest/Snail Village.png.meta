@@ -1,0 +1,7544 @@
+fileFormatVersion: 2
+guid: b896b68c19d44874ea92ea6c3002f766
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6650650556115595599
+    second: Snail Village_0
+  - first:
+      213: -7045595958134506566
+    second: Snail Village_1
+  - first:
+      213: 1959843535502580566
+    second: Snail Village_2
+  - first:
+      213: -1854347222125030430
+    second: Snail Village_3
+  - first:
+      213: -7616980715405737132
+    second: Snail Village_4
+  - first:
+      213: -8477155994741696121
+    second: Snail Village_5
+  - first:
+      213: -9215074260444595750
+    second: Snail Village_6
+  - first:
+      213: 4295497544712275168
+    second: Snail Village_7
+  - first:
+      213: 2689674775555697777
+    second: Snail Village_8
+  - first:
+      213: 7748416936220612620
+    second: Snail Village_9
+  - first:
+      213: 8942784465656671409
+    second: Snail Village_10
+  - first:
+      213: -2789245073429341660
+    second: Snail Village_11
+  - first:
+      213: 4926999708005369989
+    second: Snail Village_12
+  - first:
+      213: -2090463630736288772
+    second: Snail Village_13
+  - first:
+      213: -6786461638003504806
+    second: Snail Village_14
+  - first:
+      213: -3772406685040565123
+    second: Snail Village_15
+  - first:
+      213: 1469475551272187536
+    second: Snail Village_16
+  - first:
+      213: 2082092368161368168
+    second: Snail Village_17
+  - first:
+      213: 7381734304107740045
+    second: Snail Village_18
+  - first:
+      213: 8408532281363971158
+    second: Snail Village_19
+  - first:
+      213: 3571389620799020180
+    second: Snail Village_20
+  - first:
+      213: 2527480892976956186
+    second: Snail Village_21
+  - first:
+      213: -5582661556540486255
+    second: Snail Village_22
+  - first:
+      213: 195510669700464488
+    second: Snail Village_23
+  - first:
+      213: 2245162269455440679
+    second: Snail Village_24
+  - first:
+      213: -6842498342259905319
+    second: Snail Village_25
+  - first:
+      213: -1789651442429867592
+    second: Snail Village_26
+  - first:
+      213: -7482025082613609488
+    second: Snail Village_27
+  - first:
+      213: -3513174245509945545
+    second: Snail Village_28
+  - first:
+      213: 8711901195044061607
+    second: Snail Village_29
+  - first:
+      213: -2776922491009423637
+    second: Snail Village_30
+  - first:
+      213: 8224078363818563404
+    second: Snail Village_31
+  - first:
+      213: 829502683024179563
+    second: Snail Village_32
+  - first:
+      213: 6714204914077018885
+    second: Snail Village_33
+  - first:
+      213: -4982161385338616893
+    second: Snail Village_34
+  - first:
+      213: -2466963636789647924
+    second: Snail Village_35
+  - first:
+      213: -4737084866644466928
+    second: Snail Village_36
+  - first:
+      213: -9157207611131357995
+    second: Snail Village_37
+  - first:
+      213: 1230888907373336461
+    second: Snail Village_38
+  - first:
+      213: 2263590231047885357
+    second: Snail Village_39
+  - first:
+      213: 8155974754007220702
+    second: Snail Village_40
+  - first:
+      213: -8220823598661017321
+    second: Snail Village_41
+  - first:
+      213: -4723117431134824374
+    second: Snail Village_42
+  - first:
+      213: -3150711185397818648
+    second: Snail Village_43
+  - first:
+      213: 1752087701562587049
+    second: Snail Village_44
+  - first:
+      213: -82790240225694139
+    second: Snail Village_45
+  - first:
+      213: -7759128911088826140
+    second: Snail Village_46
+  - first:
+      213: 9046761001151374575
+    second: Snail Village_47
+  - first:
+      213: 7104778359237775939
+    second: Snail Village_48
+  - first:
+      213: 7386018920513452286
+    second: Snail Village_49
+  - first:
+      213: -6214457348638423033
+    second: Snail Village_50
+  - first:
+      213: -3511072654016123195
+    second: Snail Village_51
+  - first:
+      213: -4669593413343458795
+    second: Snail Village_52
+  - first:
+      213: -6587537615544862719
+    second: Snail Village_53
+  - first:
+      213: -8762264879684421227
+    second: Snail Village_54
+  - first:
+      213: 8247250268097526024
+    second: Snail Village_55
+  - first:
+      213: 164276417313985932
+    second: Snail Village_56
+  - first:
+      213: 6458938436091349856
+    second: Snail Village_57
+  - first:
+      213: 1316884078662884881
+    second: Snail Village_58
+  - first:
+      213: 2549176467415874795
+    second: Snail Village_59
+  - first:
+      213: 8463142466833569243
+    second: Snail Village_60
+  - first:
+      213: 4633657767650609745
+    second: Snail Village_61
+  - first:
+      213: 5692517162834168324
+    second: Snail Village_62
+  - first:
+      213: 846252809274234713
+    second: Snail Village_63
+  - first:
+      213: -4867253134837951626
+    second: Snail Village_64
+  - first:
+      213: -6901072691672321261
+    second: Snail Village_65
+  - first:
+      213: 1332028783411669600
+    second: Snail Village_66
+  - first:
+      213: -2519679934833280282
+    second: Snail Village_67
+  - first:
+      213: -1637943498769002388
+    second: Snail Village_68
+  - first:
+      213: -6322006740541426091
+    second: Snail Village_69
+  - first:
+      213: -6517926809656374095
+    second: Snail Village_70
+  - first:
+      213: -4334859010635212791
+    second: Snail Village_71
+  - first:
+      213: -1830148242636791316
+    second: Snail Village_72
+  - first:
+      213: 1614668543371349362
+    second: Snail Village_73
+  - first:
+      213: 1838765574965315154
+    second: Snail Village_74
+  - first:
+      213: -5572910072339450665
+    second: Snail Village_75
+  - first:
+      213: -9065848598626044107
+    second: Snail Village_76
+  - first:
+      213: -6921722322068528381
+    second: Snail Village_77
+  - first:
+      213: -17543313831130664
+    second: Snail Village_78
+  - first:
+      213: 5926090212072957084
+    second: Snail Village_79
+  - first:
+      213: -7840151621062001541
+    second: Snail Village_80
+  - first:
+      213: 5542939886048721697
+    second: Snail Village_81
+  - first:
+      213: 6153885529735703764
+    second: Snail Village_82
+  - first:
+      213: -4481704938131894938
+    second: Snail Village_83
+  - first:
+      213: 3376819193445146278
+    second: Snail Village_84
+  - first:
+      213: 7460017327745836163
+    second: Snail Village_85
+  - first:
+      213: 5694977394724675344
+    second: Snail Village_86
+  - first:
+      213: 1110093597404395577
+    second: Snail Village_87
+  - first:
+      213: -7957684635068120789
+    second: Snail Village_88
+  - first:
+      213: -2822921854840195142
+    second: Snail Village_89
+  - first:
+      213: -1372515083999930615
+    second: Snail Village_90
+  - first:
+      213: 2373274325973329499
+    second: Snail Village_91
+  - first:
+      213: -3252152214991241295
+    second: Snail Village_92
+  - first:
+      213: -2605415709420886922
+    second: Snail Village_93
+  - first:
+      213: 8231719679586399814
+    second: Snail Village_94
+  - first:
+      213: 6153621606430690001
+    second: Snail Village_95
+  - first:
+      213: -4737495711085222297
+    second: Snail Village_96
+  - first:
+      213: 6097218317465362362
+    second: Snail Village_97
+  - first:
+      213: -1208094863726049825
+    second: Snail Village_98
+  - first:
+      213: 3420303220597615452
+    second: Snail Village_99
+  - first:
+      213: -6833311213152588202
+    second: Snail Village_100
+  - first:
+      213: -5799159442536529724
+    second: Snail Village_101
+  - first:
+      213: 2422183625764603529
+    second: Snail Village_102
+  - first:
+      213: 2697620717731321876
+    second: Snail Village_103
+  - first:
+      213: -6778418586802056264
+    second: Snail Village_104
+  - first:
+      213: 6209341403773402059
+    second: Snail Village_105
+  - first:
+      213: 7283575144419627890
+    second: Snail Village_106
+  - first:
+      213: -2893883895299949210
+    second: Snail Village_107
+  - first:
+      213: -3063709617218497198
+    second: Snail Village_108
+  - first:
+      213: -4731447034842944745
+    second: Snail Village_109
+  - first:
+      213: -6386110999646293275
+    second: Snail Village_110
+  - first:
+      213: 8087025768341684906
+    second: Snail Village_111
+  - first:
+      213: -3199671166513862041
+    second: Snail Village_112
+  - first:
+      213: -4718350406302799376
+    second: Snail Village_113
+  - first:
+      213: 4555507523585911510
+    second: Snail Village_114
+  - first:
+      213: -110391214716540187
+    second: Snail Village_115
+  - first:
+      213: -876853501241418898
+    second: Snail Village_116
+  - first:
+      213: 1486148570844799111
+    second: Snail Village_117
+  - first:
+      213: -5269056914124806924
+    second: Snail Village_118
+  - first:
+      213: 4350631361578054866
+    second: Snail Village_119
+  - first:
+      213: 2565224407753914306
+    second: Snail Village_120
+  - first:
+      213: -7949157929422338652
+    second: Snail Village_121
+  - first:
+      213: 5180168652262549165
+    second: Snail Village_122
+  - first:
+      213: -37192402230414608
+    second: Snail Village_123
+  - first:
+      213: 2438916398849254487
+    second: Snail Village_124
+  - first:
+      213: 1253981127683676970
+    second: Snail Village_125
+  - first:
+      213: -6356683860219290993
+    second: Snail Village_126
+  - first:
+      213: -5837991695571182411
+    second: Snail Village_127
+  - first:
+      213: -8264336019055276168
+    second: Snail Village_128
+  - first:
+      213: -8530422408416221372
+    second: Snail Village_129
+  - first:
+      213: -658911514306982165
+    second: Snail Village_130
+  - first:
+      213: -1473495153689367579
+    second: Snail Village_131
+  - first:
+      213: 6581991331016090175
+    second: Snail Village_132
+  - first:
+      213: 5268893819074235763
+    second: Snail Village_133
+  - first:
+      213: 7581739752502386462
+    second: Snail Village_134
+  - first:
+      213: -1748422862446468304
+    second: Snail Village_135
+  - first:
+      213: -5720303568633508874
+    second: Snail Village_136
+  - first:
+      213: 9158494220716692043
+    second: Snail Village_137
+  - first:
+      213: -5319622134086226092
+    second: Snail Village_138
+  - first:
+      213: 2719555499453605770
+    second: Snail Village_139
+  - first:
+      213: 3774974281137089695
+    second: Snail Village_140
+  - first:
+      213: 2836776532703261539
+    second: Snail Village_141
+  - first:
+      213: -1079920973245374619
+    second: Snail Village_142
+  - first:
+      213: 5183194981272456513
+    second: Snail Village_143
+  - first:
+      213: 597926281492191485
+    second: Snail Village_144
+  - first:
+      213: -8233975680638959585
+    second: Snail Village_145
+  - first:
+      213: -2944868518103922574
+    second: Snail Village_146
+  - first:
+      213: -4699450080382602204
+    second: Snail Village_147
+  - first:
+      213: 5805018205770689693
+    second: Snail Village_148
+  - first:
+      213: 8327840636684761768
+    second: Snail Village_149
+  - first:
+      213: 5374341360944119941
+    second: Snail Village_150
+  - first:
+      213: 7110413775760085192
+    second: Snail Village_151
+  - first:
+      213: -6067010171782586612
+    second: Snail Village_152
+  - first:
+      213: -1770893249560534391
+    second: Snail Village_153
+  - first:
+      213: 6572592721520251821
+    second: Snail Village_154
+  - first:
+      213: 863229061031019344
+    second: Snail Village_155
+  - first:
+      213: 1418053943962235162
+    second: Snail Village_156
+  - first:
+      213: -1089896882270068819
+    second: Snail Village_157
+  - first:
+      213: -8126376259324847236
+    second: Snail Village_158
+  - first:
+      213: 5593524170311841609
+    second: Snail Village_159
+  - first:
+      213: -904605632707675812
+    second: Snail Village_160
+  - first:
+      213: -5680570712143290656
+    second: Snail Village_161
+  - first:
+      213: -5669146407538173572
+    second: Snail Village_162
+  - first:
+      213: 7431105143501245295
+    second: Snail Village_163
+  - first:
+      213: -6749627675368732969
+    second: Snail Village_164
+  - first:
+      213: -6340852611061311497
+    second: Snail Village_165
+  - first:
+      213: 493472950869177803
+    second: Snail Village_166
+  - first:
+      213: -3469486686905316021
+    second: Snail Village_167
+  - first:
+      213: -5147049383971471841
+    second: Snail Village_168
+  - first:
+      213: 931457467309732417
+    second: Snail Village_169
+  - first:
+      213: 2908040836135385927
+    second: Snail Village_170
+  - first:
+      213: -4855441325213116856
+    second: Snail Village_171
+  - first:
+      213: -8374202445625012744
+    second: Snail Village_172
+  - first:
+      213: -2709431234115714489
+    second: Snail Village_173
+  - first:
+      213: 5484427289302759024
+    second: Snail Village_174
+  - first:
+      213: 3137540006164037621
+    second: Snail Village_175
+  - first:
+      213: -4446869618651120615
+    second: Snail Village_176
+  - first:
+      213: -4487904618672255399
+    second: Snail Village_177
+  - first:
+      213: 2558313720976584467
+    second: Snail Village_178
+  - first:
+      213: -4018422868790083976
+    second: Snail Village_179
+  - first:
+      213: -6788406167153273423
+    second: Snail Village_180
+  - first:
+      213: 2560633275788567187
+    second: Snail Village_181
+  - first:
+      213: 5801792244222141828
+    second: Snail Village_182
+  - first:
+      213: -3475186395777645598
+    second: Snail Village_183
+  - first:
+      213: -5775001855498358427
+    second: Snail Village_184
+  - first:
+      213: 82230233943844945
+    second: Snail Village_185
+  - first:
+      213: -6768026171127961808
+    second: Snail Village_186
+  - first:
+      213: 8205855407762172344
+    second: Snail Village_187
+  - first:
+      213: -6743917243641458209
+    second: Snail Village_188
+  - first:
+      213: 1540505760363374512
+    second: Snail Village_189
+  - first:
+      213: -8632109077642408643
+    second: Snail Village_190
+  - first:
+      213: 8969532139190480989
+    second: Snail Village_191
+  - first:
+      213: -392358436077950991
+    second: Snail Village_192
+  - first:
+      213: -5396949014979302197
+    second: Snail Village_193
+  - first:
+      213: 3799351121499443915
+    second: Snail Village_194
+  - first:
+      213: -8869965236032783744
+    second: Snail Village_195
+  - first:
+      213: 8455524360281188764
+    second: Snail Village_196
+  - first:
+      213: -4527268576063761924
+    second: Snail Village_197
+  - first:
+      213: 4574142091464018709
+    second: Snail Village_198
+  - first:
+      213: 7308695606477752883
+    second: Snail Village_199
+  - first:
+      213: 4796149304999120427
+    second: Snail Village_200
+  - first:
+      213: -8039138616957287326
+    second: Snail Village_201
+  - first:
+      213: -8200914924161274088
+    second: Snail Village_202
+  - first:
+      213: -2343796220013030261
+    second: Snail Village_203
+  - first:
+      213: 5292246374229736956
+    second: Snail Village_204
+  - first:
+      213: -4898919213925543475
+    second: Snail Village_205
+  - first:
+      213: 3286021217631457941
+    second: Snail Village_206
+  - first:
+      213: 7471951769069627118
+    second: Snail Village_207
+  - first:
+      213: 7025081824480055806
+    second: Snail Village_208
+  - first:
+      213: -984528621818268900
+    second: Snail Village_209
+  - first:
+      213: 2145155992036203080
+    second: Snail Village_210
+  - first:
+      213: 7241114737774462848
+    second: Snail Village_211
+  - first:
+      213: 1902122112598591791
+    second: Snail Village_212
+  - first:
+      213: -341714768545638295
+    second: Snail Village_213
+  - first:
+      213: -1131033028280656943
+    second: Snail Village_214
+  - first:
+      213: -8772174076603692422
+    second: Snail Village_215
+  - first:
+      213: -1372554728546026017
+    second: Snail Village_216
+  - first:
+      213: -3581831949568748634
+    second: Snail Village_217
+  - first:
+      213: -3810177565061115747
+    second: Snail Village_218
+  - first:
+      213: -5402537337130153643
+    second: Snail Village_219
+  - first:
+      213: 2024276807694323974
+    second: Snail Village_220
+  - first:
+      213: -6186055529519869261
+    second: Snail Village_221
+  - first:
+      213: -7973234884758203919
+    second: Snail Village_222
+  - first:
+      213: 7015486064183974097
+    second: Snail Village_223
+  - first:
+      213: -5601760980656471385
+    second: Snail Village_224
+  - first:
+      213: 3615531002623708129
+    second: Snail Village_225
+  - first:
+      213: -8913266178050568686
+    second: Snail Village_226
+  - first:
+      213: 3909315327322444774
+    second: Snail Village_227
+  - first:
+      213: 2006344463689715517
+    second: Snail Village_228
+  - first:
+      213: -2052843224877174682
+    second: Snail Village_229
+  - first:
+      213: -4732122123958060750
+    second: Snail Village_230
+  - first:
+      213: 4449452758632115780
+    second: Snail Village_231
+  - first:
+      213: 1355539134717862727
+    second: Snail Village_232
+  - first:
+      213: -6289140283713916230
+    second: Snail Village_233
+  - first:
+      213: 4817292711311951813
+    second: Snail Village_234
+  - first:
+      213: -291052177212720909
+    second: Snail Village_235
+  - first:
+      213: -779052753616565665
+    second: Snail Village_236
+  - first:
+      213: 8722544972746676306
+    second: Snail Village_237
+  - first:
+      213: -6710116595670498691
+    second: Snail Village_238
+  - first:
+      213: 3253784484010260840
+    second: Snail Village_239
+  - first:
+      213: -8905080741844403558
+    second: Snail Village_240
+  - first:
+      213: 6106711004868834925
+    second: Snail Village_241
+  - first:
+      213: 4899401617941506304
+    second: Snail Village_242
+  - first:
+      213: 8415171204562243318
+    second: Snail Village_243
+  - first:
+      213: -7609754197290377394
+    second: Snail Village_244
+  - first:
+      213: -8230718352677555031
+    second: Snail Village_245
+  - first:
+      213: -4404402809424689271
+    second: Snail Village_246
+  - first:
+      213: -4432188371529060673
+    second: Snail Village_247
+  - first:
+      213: -398370854673682737
+    second: Snail Village_248
+  - first:
+      213: -6627838313514573575
+    second: Snail Village_249
+  - first:
+      213: -86610741311575453
+    second: Snail Village_250
+  - first:
+      213: 2348416669191924926
+    second: Snail Village_251
+  - first:
+      213: 3588817890047504769
+    second: Snail Village_252
+  - first:
+      213: 8090940942352586473
+    second: Snail Village_253
+  - first:
+      213: 8053072089338106192
+    second: Snail Village_254
+  - first:
+      213: -236713897563680628
+    second: Snail Village_255
+  - first:
+      213: 2614164993396931614
+    second: Snail Village_256
+  - first:
+      213: -2502684951775568105
+    second: Snail Village_257
+  - first:
+      213: -5510500148987450560
+    second: Snail Village_258
+  - first:
+      213: -1542030281712807276
+    second: Snail Village_259
+  - first:
+      213: 4980815385941511707
+    second: Snail Village_260
+  - first:
+      213: -3339373450986329130
+    second: Snail Village_261
+  - first:
+      213: 8077354406493998311
+    second: Snail Village_262
+  - first:
+      213: -5697268340493014189
+    second: Snail Village_263
+  - first:
+      213: -6263068325926302447
+    second: Snail Village_264
+  - first:
+      213: -2858217907123459931
+    second: Snail Village_265
+  - first:
+      213: -7567025532956832737
+    second: Snail Village_266
+  - first:
+      213: 742064166089627280
+    second: Snail Village_267
+  - first:
+      213: 2739676712399258701
+    second: Snail Village_268
+  - first:
+      213: 7059151307720209795
+    second: Snail Village_269
+  - first:
+      213: 6606657160684664170
+    second: Snail Village_270
+  - first:
+      213: 3464615805497811178
+    second: Snail Village_271
+  - first:
+      213: 4628810194196212541
+    second: Snail Village_272
+  - first:
+      213: 435775575257448495
+    second: Snail Village_273
+  - first:
+      213: -720028678663615004
+    second: Snail Village_274
+  - first:
+      213: -2262732410595278879
+    second: Snail Village_275
+  - first:
+      213: 3572082136457018726
+    second: Snail Village_276
+  - first:
+      213: -7928791188813101426
+    second: Snail Village_277
+  - first:
+      213: -418623594246755552
+    second: Snail Village_278
+  - first:
+      213: 3982767108491007086
+    second: Snail Village_279
+  - first:
+      213: 938594359966160612
+    second: Snail Village_280
+  - first:
+      213: 967090263608383071
+    second: Snail Village_281
+  - first:
+      213: 6395840149757465817
+    second: Snail Village_282
+  - first:
+      213: 7639232258114598755
+    second: Snail Village_283
+  - first:
+      213: 6983971090955548214
+    second: Snail Village_284
+  - first:
+      213: 2764392751378118691
+    second: Snail Village_285
+  - first:
+      213: 3393233230701857538
+    second: Snail Village_286
+  - first:
+      213: 4440998114203333021
+    second: Snail Village_287
+  - first:
+      213: -791932526407192065
+    second: Snail Village_288
+  - first:
+      213: -4613954894674763659
+    second: Snail Village_289
+  - first:
+      213: 3771432039027295981
+    second: Snail Village_290
+  - first:
+      213: 5492273745824294498
+    second: Snail Village_291
+  - first:
+      213: 7550259699100738134
+    second: Snail Village_292
+  - first:
+      213: 5607521908027924175
+    second: Snail Village_293
+  - first:
+      213: -8370622611308543911
+    second: Snail Village_294
+  - first:
+      213: -2953664966102619236
+    second: Snail Village_295
+  - first:
+      213: -2065026402461771772
+    second: Snail Village_296
+  - first:
+      213: 7464184256500578671
+    second: Snail Village_297
+  - first:
+      213: 8884616746405520396
+    second: Snail Village_298
+  - first:
+      213: 1165435948339490034
+    second: Snail Village_299
+  - first:
+      213: -8347616833929830208
+    second: Snail Village_300
+  - first:
+      213: 799689696364270350
+    second: Snail Village_301
+  - first:
+      213: 2954899561592973371
+    second: Snail Village_302
+  - first:
+      213: 4040195809114139751
+    second: Snail Village_303
+  - first:
+      213: -712976020764359414
+    second: Snail Village_304
+  - first:
+      213: -6473275611410785538
+    second: Snail Village_305
+  - first:
+      213: 4480643965858526241
+    second: Snail Village_306
+  - first:
+      213: -8334462604538492212
+    second: Snail Village_307
+  - first:
+      213: -1899690630751272519
+    second: Snail Village_308
+  - first:
+      213: -1128874042009832923
+    second: Snail Village_309
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Snail Village_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 307
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bec97d4e8424b3a0800000000000000
+      internalID: -6650650556115595599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 307
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abbf6742ec3093e90800000000000000
+      internalID: -7045595958134506566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 307
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65b1af4df43c23b10800000000000000
+      internalID: 1959843535502580566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 307
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e35107b6090446e0800000000000000
+      internalID: -1854347222125030430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 307
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4538d35556c0b4690800000000000000
+      internalID: -7616980715405737132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 307
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78919d369871b5a80800000000000000
+      internalID: -8477155994741696121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 307
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad9ba5f98ca7d1080800000000000000
+      internalID: -9215074260444595750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 307
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e44326224cac9b30800000000000000
+      internalID: 4295497544712275168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 307
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c635635f4a35520800000000000000
+      internalID: 2689674775555697777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 307
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c08dc0f8628e78b60800000000000000
+      internalID: 7748416936220612620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 307
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bce85237172b1c70800000000000000
+      internalID: 8942784465656671409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 307
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42a5cbe326c9a49d0800000000000000
+      internalID: -2789245073429341660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 307
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5880d1c4128306440800000000000000
+      internalID: 4926999708005369989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 307
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf31712576e2df2e0800000000000000
+      internalID: -2090463630736288772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 307
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a594cf0b815a1d1a0800000000000000
+      internalID: -6786461638003504806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 307
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7429d56b18b5abc0800000000000000
+      internalID: -3772406685040565123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 307
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09633bf6a30a46410800000000000000
+      internalID: 1469475551272187536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_17
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 307
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8686fc93af315ec10800000000000000
+      internalID: 2082092368161368168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_18
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 307
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8b38ae4d30317660800000000000000
+      internalID: 7381734304107740045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_19
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 307
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65cba114f8b11b470800000000000000
+      internalID: 8408532281363971158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_20
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 307
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c1e3620ff109130800000000000000
+      internalID: 3571389620799020180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_21
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 307
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a138a722b7a631320800000000000000
+      internalID: 2527480892976956186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_22
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 307
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19dcc2d74e66682b0800000000000000
+      internalID: -5582661556540486255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_23
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 307
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f7b411be796b200800000000000000
+      internalID: 195510669700464488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_24
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 307
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b500e403b682f10800000000000000
+      internalID: 2245162269455440679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_25
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 307
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc2665c2009a01a0800000000000000
+      internalID: -6842498342259905319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_26
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 307
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b9c33ebe71e927e0800000000000000
+      internalID: -1789651442429867592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_27
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 307
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fbc04e24d18a2890800000000000000
+      internalID: -7482025082613609488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_28
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 307
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 737245623a2be3fc0800000000000000
+      internalID: -3513174245509945545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_29
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 307
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a107e0baf3e6e870800000000000000
+      internalID: 8711901195044061607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_30
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 307
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be6279a05b36679d0800000000000000
+      internalID: -2776922491009423637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 275
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c479168e2bbc12270800000000000000
+      internalID: 8224078363818563404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_32
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 275
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61c3e99b4cf28b00800000000000000
+      internalID: 829502683024179563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_33
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 275
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50b2eb4cbc5ad2d50800000000000000
+      internalID: 6714204914077018885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_34
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 275
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c3493ddd9ecbdab0800000000000000
+      internalID: -4982161385338616893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_35
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 275
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc5e85394a593cdd0800000000000000
+      internalID: -2466963636789647924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_36
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 275
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01327c4796e724eb0800000000000000
+      internalID: -4737084866644466928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_37
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 275
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d41304d1301be080800000000000000
+      internalID: -9157207611131357995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_38
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 275
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d87d4f190fef41110800000000000000
+      internalID: 1230888907373336461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_39
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 275
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2257a67253e96f10800000000000000
+      internalID: 2263590231047885357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_40
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 275
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed187a993d7df2170800000000000000
+      internalID: 8155974754007220702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_41
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 275
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71169a82e74c9ed80800000000000000
+      internalID: -8220823598661017321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_42
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 275
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a48d0c478bd147eb0800000000000000
+      internalID: -4723117431134824374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_43
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 275
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea538cbedc6644d0800000000000000
+      internalID: -3150711185397818648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_44
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 275
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7f7fa4b7aa05810800000000000000
+      internalID: 1752087701562587049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_45
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 275
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54e6a7417bed9def0800000000000000
+      internalID: -82790240225694139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_46
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 275
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e846107d59025490800000000000000
+      internalID: -7759128911088826140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_47
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 275
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe42c71e23d8c8d70800000000000000
+      internalID: 9046761001151374575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_48
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 275
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3421046664e399260800000000000000
+      internalID: 7104778359237775939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_49
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 275
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef8b48d4319608660800000000000000
+      internalID: 7386018920513452286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_50
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 275
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 708479e87ffc1c9a0800000000000000
+      internalID: -6214457348638423033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_51
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 275
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cee7cc060a264fc0800000000000000
+      internalID: -3511072654016123195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_52
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 275
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ac828f785423fb0800000000000000
+      internalID: -4669593413343458795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_53
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 275
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 108bce0e07d5494a0800000000000000
+      internalID: -6587537615544862719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_54
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 275
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5997782348e266680800000000000000
+      internalID: -8762264879684421227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_55
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 275
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 809b2bb4c6e147270800000000000000
+      internalID: 8247250268097526024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_56
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 275
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8559faf780a74200800000000000000
+      internalID: 164276417313985932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_57
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 275
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b87556942c2a950800000000000000
+      internalID: 6458938436091349856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_58
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 275
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e9117a713864210800000000000000
+      internalID: 1316884078662884881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_59
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 275
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: becbb12bd7e706320800000000000000
+      internalID: 2549176467415874795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_60
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 275
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd55323eb3f137570800000000000000
+      internalID: 8463142466833569243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_61
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 275
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15a4b83803f0e4040800000000000000
+      internalID: 4633657767650609745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_62
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 243
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40a8b880332effe40800000000000000
+      internalID: 5692517162834168324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_63
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 243
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95797f6427e7ebb00800000000000000
+      internalID: 846252809274234713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_64
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 243
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 673d31acf0b047cb0800000000000000
+      internalID: -4867253134837951626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_65
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 243
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 313f8bb43f67a30a0800000000000000
+      internalID: -6901072691672321261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_66
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 243
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a29d10f115c7210800000000000000
+      internalID: 1332028783411669600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_67
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 243
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ea3598f27c480dd0800000000000000
+      internalID: -2519679934833280282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_68
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 243
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6096b9e01bd449e0800000000000000
+      internalID: -1637943498769002388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_69
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 243
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 556376a6d58b348a0800000000000000
+      internalID: -6322006740541426091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_70
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 243
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bccf6e991cab85a0800000000000000
+      internalID: -6517926809656374095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_71
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 243
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 908dfa762bc77d3c0800000000000000
+      internalID: -4334859010635212791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_72
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 243
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce1245faed10a96e0800000000000000
+      internalID: -1830148242636791316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_73
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 243
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d85ad3c74786610800000000000000
+      internalID: 1614668543371349362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_74
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 243
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25646095c8b948910800000000000000
+      internalID: 1838765574965315154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_75
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 243
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d4b205d0db09a2b0800000000000000
+      internalID: -5572910072339450665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_76
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 243
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 537fb638bb2af2280800000000000000
+      internalID: -9065848598626044107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_77
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 243
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 303a63f883a11ff90800000000000000
+      internalID: -6921722322068528381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_78
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 243
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d989e2f27ca1cff0800000000000000
+      internalID: -17543313831130664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_79
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 243
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c94278d66a3bd3250800000000000000
+      internalID: 5926090212072957084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_80
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 243
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c7569b3af223390800000000000000
+      internalID: -7840151621062001541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_81
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 243
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b3747657a7cec40800000000000000
+      internalID: 5542939886048721697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_82
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 243
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc205cd84ef66550800000000000000
+      internalID: 6153885529735703764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_83
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 243
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66dc8869a19cdc1c0800000000000000
+      internalID: -4481704938131894938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_84
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 243
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aed4005a2fdcde20800000000000000
+      internalID: 3376819193445146278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_85
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 243
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384ac861c3e478760800000000000000
+      internalID: 7460017327745836163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_86
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 243
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f917864cf980f40800000000000000
+      internalID: 5694977394724675344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_87
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 243
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93879bcce38d76f00800000000000000
+      internalID: 1110093597404395577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_88
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 243
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b214e2c6cff909190800000000000000
+      internalID: -7957684635068120789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_89
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 243
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab7309d8787f2d8d0800000000000000
+      internalID: -2822921854840195142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_90
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 243
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90791519dc8d3fce0800000000000000
+      internalID: -1372515083999930615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_91
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 243
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b56e132ec609fe020800000000000000
+      internalID: 2373274325973329499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_92
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 243
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf72f58ac80ed2d0800000000000000
+      internalID: -3252152214991241295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_93
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 211
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 674eeb36734b7dbd0800000000000000
+      internalID: -2605415709420886922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_94
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 211
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 646f6506f61fc3270800000000000000
+      internalID: 8231719679586399814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_95
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 211
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da487d6f3e066550800000000000000
+      internalID: 6153621606430690001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_96
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 211
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76624d740c8014eb0800000000000000
+      internalID: -4737495711085222297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_97
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 211
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf178a51cbad9450800000000000000
+      internalID: 6097218317465362362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_98
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 211
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd582a84f1cfb3fe0800000000000000
+      internalID: -1208094863726049825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_99
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 211
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b68d758ab577f20800000000000000
+      internalID: 3420303220597615452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_100
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 211
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65ea854f7a33b21a0800000000000000
+      internalID: -6833311213152588202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_101
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 211
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c002c7563f358fa0800000000000000
+      internalID: -5799159442536529724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_102
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 211
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9868772ac235d9120800000000000000
+      internalID: 2422183625764603529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_103
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 211
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4181c1b00cfdf6520800000000000000
+      internalID: 2697620717731321876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_104
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 211
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b312ca75383ee1a0800000000000000
+      internalID: -6778418586802056264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_105
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 211
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcbf905bb130c2650800000000000000
+      internalID: 6209341403773402059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_106
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 211
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2731ff9f005741560800000000000000
+      internalID: 7283575144419627890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_107
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 211
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d3c6ffdebd6d7d0800000000000000
+      internalID: -2893883895299949210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_108
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 211
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2555ebad5548b75d0800000000000000
+      internalID: -3063709617218497198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_109
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 211
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b6c967df5865eb0800000000000000
+      internalID: -4731447034842944745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_110
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 211
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e23ed181e9ff57a0800000000000000
+      internalID: -6386110999646293275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_111
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 211
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa2cf63e613ea3070800000000000000
+      internalID: 8087025768341684906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_112
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 211
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76aa1e1d60c7893d0800000000000000
+      internalID: -3199671166513862041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_113
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 211
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f9608aed4d058eb0800000000000000
+      internalID: -4718350406302799376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_114
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 211
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da25f2e4f9683f30800000000000000
+      internalID: 4555507523585911510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_115
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 211
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ea2f7c66cfc77ef0800000000000000
+      internalID: -110391214716540187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_116
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 211
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b927ae26ac4d3f0800000000000000
+      internalID: -876853501241418898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_117
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 211
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 780a8a0504cdf9410800000000000000
+      internalID: 1486148570844799111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_118
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 211
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f4664c37ac80e6b0800000000000000
+      internalID: -5269056914124806924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_119
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 211
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d4b8873c2c806c30800000000000000
+      internalID: 4350631361578054866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_120
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 211
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c77559f102899320800000000000000
+      internalID: 2565224407753914306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_121
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 211
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a54d49cafaeea190800000000000000
+      internalID: -7949157929422338652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_122
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 211
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da629ba81f7a3e740800000000000000
+      internalID: 5180168652262549165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_123
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 211
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f276bc05bddb7ff0800000000000000
+      internalID: -37192402230414608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_124
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 179
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 754e846fa85c8d120800000000000000
+      internalID: 2438916398849254487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_125
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 179
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b11a61139076110800000000000000
+      internalID: 1253981127683676970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_126
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 179
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8a9b2255b588c7a0800000000000000
+      internalID: -6356683860219290993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_127
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 179
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc9ccfdb794bfea0800000000000000
+      internalID: -5837991695571182411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_128
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 179
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87f8ebf4d2e2f4d80800000000000000
+      internalID: -8264336019055276168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_129
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 179
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 447a152040add9980800000000000000
+      internalID: -8530422408416221372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_130
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 179
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee415308731bd6f0800000000000000
+      internalID: -658911514306982165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_131
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 179
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ebe512f6f71d8be0800000000000000
+      internalID: -1473495153689367579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_132
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 179
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f322aef1e3ee75b50800000000000000
+      internalID: 6581991331016090175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_133
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 179
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37dcb2d330fde1940800000000000000
+      internalID: 5268893819074235763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_134
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 179
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1fdc579220c73960800000000000000
+      internalID: 7581739752502386462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_135
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 179
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 033e4be8baa5cb7e0800000000000000
+      internalID: -1748422862446468304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_136
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 179
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb433836366d90b0800000000000000
+      internalID: -5720303568633508874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_137
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 179
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b42594f48f1891f70800000000000000
+      internalID: 9158494220716692043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_138
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 179
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f2c768ad7ec26b0800000000000000
+      internalID: -5319622134086226092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_139
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 179
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8764e3615dcdb520800000000000000
+      internalID: 2719555499453605770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_140
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 179
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9c6967ab17636430800000000000000
+      internalID: 3774974281137089695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_141
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 179
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36331f20a314e5720800000000000000
+      internalID: 2836776532703261539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_142
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 179
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f1734b8995301f0800000000000000
+      internalID: -1079920973245374619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_143
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 179
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d055caf586ee740800000000000000
+      internalID: 5183194981272456513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_144
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 179
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df8563af8c24c4800800000000000000
+      internalID: 597926281492191485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_145
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 179
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f104f427eba0bbd80800000000000000
+      internalID: -8233975680638959585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_146
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 179
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2784f247fa9b127d0800000000000000
+      internalID: -2944868518103922574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_147
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 179
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4243d17fc0338ceb0800000000000000
+      internalID: -4699450080382602204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_148
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 179
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9c23a54d419f8050800000000000000
+      internalID: 5805018205770689693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_149
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 179
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa78afafee629370800000000000000
+      internalID: 8327840636684761768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_150
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 179
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58083c84efe759a40800000000000000
+      internalID: 5374341360944119941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_151
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 179
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c0593e08a34da260800000000000000
+      internalID: 7110413775760085192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_152
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 179
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f9736a466adcba0800000000000000
+      internalID: -6067010171782586612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_153
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 179
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 982aeccd8f58c67e0800000000000000
+      internalID: -1770893249560534391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_154
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 179
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da35883d14a863b50800000000000000
+      internalID: 6572592721520251821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_155
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 147
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0534c86e14ecafb00800000000000000
+      internalID: 863229061031019344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_156
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 147
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a11f5328c80fda310800000000000000
+      internalID: 1418053943962235162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_157
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 147
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daf9c726f88efd0f0800000000000000
+      internalID: -1089896882270068819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_158
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 147
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7b56c7f8df493f80800000000000000
+      internalID: -8126376259324847236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_159
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 147
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 947bffdd89030ad40800000000000000
+      internalID: 5593524170311841609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_160
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 147
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5934a848f13273f0800000000000000
+      internalID: -904605632707675812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_161
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 147
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee1635c80f8a21b0800000000000000
+      internalID: -5680570712143290656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_162
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 147
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c795107f0652351b0800000000000000
+      internalID: -5669146407538173572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_163
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 147
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b48fe91c6902760800000000000000
+      internalID: 7431105143501245295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_164
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 147
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d6408be3618452a0800000000000000
+      internalID: -6749627675368732969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_165
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 147
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f715904524c008a0800000000000000
+      internalID: -6340852611061311497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_166
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 147
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc532d6c80b29d600800000000000000
+      internalID: 493472950869177803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_167
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 147
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4dcf0a8d38e9dfc0800000000000000
+      internalID: -3469486686905316021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_168
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 147
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ebcf20bd10298b0800000000000000
+      internalID: -5147049383971471841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_169
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 147
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 142b166a1a33dec00800000000000000
+      internalID: 931457467309732417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_170
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 147
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74bfd26abbf6b5820800000000000000
+      internalID: 2908040836135385927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_171
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 147
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8469be607d10e9cb0800000000000000
+      internalID: -4855441325213116856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_172
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 147
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd405f7e3bd8cb80800000000000000
+      internalID: -8374202445625012744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_173
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 147
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7424f23d5aa266ad0800000000000000
+      internalID: -2709431234115714489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_174
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 147
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0767957df899c1c40800000000000000
+      internalID: 5484427289302759024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_175
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 147
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fffbff1308ca8b20800000000000000
+      internalID: 3137540006164037621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_176
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 147
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91cb2d174ab8942c0800000000000000
+      internalID: -4446869618651120615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_177
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 147
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e843af682c7b1c0800000000000000
+      internalID: -4487904618672255399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_178
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 147
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f21d256c4f08320800000000000000
+      internalID: 2558313720976584467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_179
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 147
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ef57cf0b1bb38c0800000000000000
+      internalID: -4018422868790083976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_180
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 147
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b512c7be8cbac1a0800000000000000
+      internalID: -6788406167153273423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_181
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 147
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3922c63c562398320800000000000000
+      internalID: 2560633275788567187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_182
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 147
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4852a719e4b148050800000000000000
+      internalID: 5801792244222141828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_183
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 147
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e34767a268a5cfc0800000000000000
+      internalID: -3475186395777645598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_184
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 147
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5617cc1e8621bdfa0800000000000000
+      internalID: -5775001855498358427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_185
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 147
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 158250c46f3242100800000000000000
+      internalID: 82230233943844945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_186
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 115
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 037ee5f4e042312a0800000000000000
+      internalID: -6768026171127961808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_187
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 115
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b9e1e1540e01e170800000000000000
+      internalID: 8205855407762172344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_188
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 115
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd19e1a6ffac862a0800000000000000
+      internalID: -6743917243641458209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_189
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 115
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b7e6ecb3d9f06510800000000000000
+      internalID: 1540505760363374512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_190
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 115
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d03bc5786943880800000000000000
+      internalID: -8632109077642408643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_191
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 115
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d50f5ed35fd2a7c70800000000000000
+      internalID: 8969532139190480989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_192
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 115
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f722f8c4101e8af0800000000000000
+      internalID: -392358436077950991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_193
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 115
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcca343177f2a15b0800000000000000
+      internalID: -5396949014979302197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_194
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 115
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc2d4f517b10ab430800000000000000
+      internalID: 3799351121499443915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_195
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 115
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08ab338ec9d87e480800000000000000
+      internalID: -8869965236032783744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_196
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 115
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c99e83c3b9e085570800000000000000
+      internalID: 8455524360281188764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_197
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 115
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf15ee07739eb21c0800000000000000
+      internalID: -4527268576063761924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_198
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 115
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b00e15ffd9a7f30800000000000000
+      internalID: 4574142091464018709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_199
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 115
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a80935ee3bd6560800000000000000
+      internalID: 7308695606477752883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_200
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 115
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e853eb1685f8240800000000000000
+      internalID: 4796149304999120427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_201
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 115
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 264c224650e3f6090800000000000000
+      internalID: -8039138616957287326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_202
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 115
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81fea28a35f703e80800000000000000
+      internalID: -8200914924161274088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_203
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 115
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b84583081c9297fd0800000000000000
+      internalID: -2343796220013030261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_204
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 115
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfdffcfa906d17940800000000000000
+      internalID: 5292246374229736956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_205
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 115
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc1d1a63eea830cb0800000000000000
+      internalID: -4898919213925543475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_206
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 115
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 592d15923ea4a9d20800000000000000
+      internalID: 3286021217631457941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_207
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 115
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee62f3ebb84b1b760800000000000000
+      internalID: 7471951769069627118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_208
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 115
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef1df2ae2ba1e7160800000000000000
+      internalID: 7025081824480055806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_209
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 115
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1331594f604652f0800000000000000
+      internalID: -984528621818268900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_210
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 115
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84a5e1d520025cd10800000000000000
+      internalID: 2145155992036203080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_211
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 115
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08784ea2d7b9d7460800000000000000
+      internalID: 7241114737774462848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_212
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 115
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f29cad8cbf1b56a10800000000000000
+      internalID: 1902122112598591791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_213
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 115
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 968155e7a3cf14bf0800000000000000
+      internalID: -341714768545638295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_214
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 115
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dbd8180473cd40f0800000000000000
+      internalID: -1131033028280656943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_215
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 115
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a8520872af24680800000000000000
+      internalID: -8772174076603692422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_216
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 115
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdd3b3a1fb4b3fce0800000000000000
+      internalID: -1372554728546026017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_217
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 83
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a35fc8b1d6ca4ec0800000000000000
+      internalID: -3581831949568748634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_218
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 83
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d909e5711b78f1bc0800000000000000
+      internalID: -3810177565061115747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_219
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 83
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 559829e6ae45605b0800000000000000
+      internalID: -5402537337130153643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_220
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 83
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6019ea1180da71c10800000000000000
+      internalID: 2024276807694323974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_221
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 83
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b290226547b62aa0800000000000000
+      internalID: -6186055529519869261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_222
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 83
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f11c37cd11695190800000000000000
+      internalID: -7973234884758203919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_223
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 83
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d8936ed7630c5160800000000000000
+      internalID: 7015486064183974097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_224
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 83
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a2c357411c8242b0800000000000000
+      internalID: -5601760980656471385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_225
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 83
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb4ccd7a42fc2230800000000000000
+      internalID: 3615531002623708129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_226
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 83
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21ecac4b2a7bd4480800000000000000
+      internalID: -8913266178050568686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_227
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 83
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e35b08e39da04630800000000000000
+      internalID: 3909315327322444774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_228
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 83
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f0c4fd8a7f7db10800000000000000
+      internalID: 2006344463689715517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_229
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 83
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 660f0a1a6f5d283e0800000000000000
+      internalID: -2052843224877174682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_230
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 83
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23976b70000245eb0800000000000000
+      internalID: -4732122123958060750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_231
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 83
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44e2623b5b1afbd30800000000000000
+      internalID: 4449452758632115780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_232
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 83
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 743affb39a7dfc210800000000000000
+      internalID: 1355539134717862727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_233
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 83
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2f1a6bb3c78b8a0800000000000000
+      internalID: -6289140283713916230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_234
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 83
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c7c3d4a2367ad240800000000000000
+      internalID: 4817292711311951813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_235
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 83
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f8b12e3699f5fbf0800000000000000
+      internalID: -291052177212720909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_236
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 83
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a056fe5af3035f0800000000000000
+      internalID: -779052753616565665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_237
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 83
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2585fed4074bc0970800000000000000
+      internalID: 8722544972746676306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_238
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 83
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d724b990280e0e2a0800000000000000
+      internalID: -6710116595670498691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_239
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 83
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 869fb19bfb3c72d20800000000000000
+      internalID: 3253784484010260840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_240
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 83
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a31361f3cca6480800000000000000
+      internalID: -8905080741844403558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_241
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 83
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d66fc2fdd456fb450800000000000000
+      internalID: 6106711004868834925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_242
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 83
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 009a06930db2ef340800000000000000
+      internalID: 4899401617941506304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_243
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 83
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe470400a1b8c470800000000000000
+      internalID: 8415171204562243318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_244
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 83
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f187230e8b46690800000000000000
+      internalID: -7609754197290377394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_245
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 83
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a4bd56344d96cd80800000000000000
+      internalID: -8230718352677555031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_246
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 83
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9874288fafa60e2c0800000000000000
+      internalID: -4404402809424689271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_247
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 83
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbea469a824bd72c0800000000000000
+      internalID: -4432188371529060673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_248
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 51
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fce6e4e71d3b87af0800000000000000
+      internalID: -398370854673682737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_249
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 51
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f06d3e6b203504a0800000000000000
+      internalID: -6627838313514573575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_250
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 51
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36ae36a5dfb4ccef0800000000000000
+      internalID: -86610741311575453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_251
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 51
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc6ac7a480479020800000000000000
+      internalID: 2348416669191924926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_252
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 51
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18139db4bda0ec130800000000000000
+      internalID: 3588817890047504769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_253
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 51
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e6179f5bebc84070800000000000000
+      internalID: 8090940942352586473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_254
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 51
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0515c93f56242cf60800000000000000
+      internalID: 8053072089338106192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_255
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 51
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c80915ed6f507bcf0800000000000000
+      internalID: -236713897563680628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_256
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 51
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1c7fa70631674420800000000000000
+      internalID: 2614164993396931614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_257
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 51
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71f93b0db4da44dd0800000000000000
+      internalID: -2502684951775568105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_258
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 51
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04badd47f45c683b0800000000000000
+      internalID: -5510500148987450560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_259
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 51
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492dc99f0ab999ae0800000000000000
+      internalID: -1542030281712807276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_260
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 51
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e08da34396f1540800000000000000
+      internalID: 4980815385941511707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_261
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 51
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dbe6910a8928a1d0800000000000000
+      internalID: -3339373450986329130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_262
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 51
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ecc20c7907881070800000000000000
+      internalID: 8077354406493998311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_263
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 51
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ba5d631ac3fe0b0800000000000000
+      internalID: -5697268340493014189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_264
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 51
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d892d6a8c1519a0800000000000000
+      internalID: -6263068325926302447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_265
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 51
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a8ee3bf4f19558d0800000000000000
+      internalID: -2858217907123459931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_266
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 51
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1c0ccd9e568cf690800000000000000
+      internalID: -7567025532956832737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_267
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 51
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 096915c6d675c4a00800000000000000
+      internalID: 742064166089627280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_268
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 51
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d44c7f95479450620800000000000000
+      internalID: 2739676712399258701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_269
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 51
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 385b560a6b427f160800000000000000
+      internalID: 7059151307720209795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_270
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 51
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a65766f1faf8fab50800000000000000
+      internalID: 6606657160684664170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_271
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 51
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae0a6e108b9c41030800000000000000
+      internalID: 3464615805497811178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_272
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 51
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ba5cdd856dc3040800000000000000
+      internalID: 4628810194196212541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_273
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 51
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f20030da39f2c0600800000000000000
+      internalID: 435775575257448495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_274
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 51
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed492c4bb1f106f0800000000000000
+      internalID: -720028678663615004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_275
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 51
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ef74bc6cd82990e0800000000000000
+      internalID: -2262732410595278879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_276
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 51
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66df90407c5929130800000000000000
+      internalID: 3572082136457018726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_277
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 51
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e864c8c1c6647f190800000000000000
+      internalID: -7928791188813101426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_278
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 51
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b235a1f00c03af0800000000000000
+      internalID: -418623594246755552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_279
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 19
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6457b46591a54730800000000000000
+      internalID: 3982767108491007086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_280
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 19
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6d7f5f89e860d00800000000000000
+      internalID: 938594359966160612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_281
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 19
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f56dd1c887bcb6d00800000000000000
+      internalID: 967090263608383071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_282
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 19
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d49976cab692c850800000000000000
+      internalID: 6395840149757465817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_283
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 19
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36730ada341040a60800000000000000
+      internalID: 7639232258114598755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_284
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 19
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 636b00e54bc0ce060800000000000000
+      internalID: 6983971090955548214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_285
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 19
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 328be8d9f881d5620800000000000000
+      internalID: 2764392751378118691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_286
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 19
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b090c25af271f20800000000000000
+      internalID: 3393233230701857538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_287
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 19
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d91f445614891ad30800000000000000
+      internalID: 4440998114203333021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_288
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 19
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff1fb65209d7205f0800000000000000
+      internalID: -791932526407192065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_289
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 19
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5706c351870f7ffb0800000000000000
+      internalID: -4613954894674763659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_290
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 19
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de6cfb42571d65430800000000000000
+      internalID: 3771432039027295981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_291
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 19
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 266af0d5fd9783c40800000000000000
+      internalID: 5492273745824294498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_292
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 19
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 652e8de7139e7c860800000000000000
+      internalID: 7550259699100738134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_293
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 19
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fce9936277be1dd40800000000000000
+      internalID: 5607521908027924175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_294
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 19
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9500a10a51395db80800000000000000
+      internalID: -8370622611308543911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_295
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 19
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9befedcc597207d0800000000000000
+      internalID: -2953664966102619236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_296
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 19
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 408967d8d6d8753e0800000000000000
+      internalID: -2065026402461771772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_297
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 19
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f69b7cac80c169760800000000000000
+      internalID: 7464184256500578671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_298
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 19
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c04ecfeabdf7c4b70800000000000000
+      internalID: 8884616746405520396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_299
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 19
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fcee3df1d57c2010800000000000000
+      internalID: 1165435948339490034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_300
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 19
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c0aa8497be472c80800000000000000
+      internalID: -8347616833929830208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_301
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 19
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e03155aba81191b00800000000000000
+      internalID: 799689696364270350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_302
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 19
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b38e4bbde79e10920800000000000000
+      internalID: 2954899561592973371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_303
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 19
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c2549bea8a11830800000000000000
+      internalID: 4040195809114139751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_304
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 19
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0508fc26100b16f0800000000000000
+      internalID: -712976020764359414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_305
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 19
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efa19a8d02e4a26a0800000000000000
+      internalID: -6473275611410785538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_306
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 19
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 124befd82f17e2e30800000000000000
+      internalID: 4480643965858526241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_307
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 19
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccac4b64b6a065c80800000000000000
+      internalID: -8334462604538492212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_308
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 19
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b1cee2bf61f2a5e0800000000000000
+      internalID: -1899690630751272519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail Village_309
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 19
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52238d13a0f6550f0800000000000000
+      internalID: -1128874042009832923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
