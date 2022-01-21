@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: OakConfig
   m_EditorClassIdentifier: 
   enemyName: Oak
-  maxHP: 500
+  maxHP: 1000
   attackMaxTime: 0
   attackAmount: 30

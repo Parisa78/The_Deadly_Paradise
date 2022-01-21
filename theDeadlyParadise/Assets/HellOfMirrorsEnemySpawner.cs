@@ -12,7 +12,7 @@ public class HellOfMirrorsEnemySpawner : MonoBehaviour
 
     public IEnumerator StartTimerAndPlaceEnemy()
     {
-        yield return new WaitForSeconds(UnityEngine.Random.Range(5, 10));
+        yield return new WaitForSeconds(UnityEngine.Random.Range(3, 7));
         Instantiate(enemy);
         StartCoroutine(StartTimerAndPlaceEnemy());
     }
