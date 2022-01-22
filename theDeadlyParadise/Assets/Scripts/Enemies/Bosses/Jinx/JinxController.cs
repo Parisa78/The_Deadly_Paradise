@@ -107,7 +107,8 @@ public class JinxController : BossEnemyController
     {
         yield return new WaitForSeconds(UnityEngine.Random.Range(1.0f, 2.0f));
         var pastRootsPos = new List<Vector3>();
-        for (int i = 0; i < UnityEngine.Random.Range(1, 3); i++)
+        var holdHoles = new List<GameObject>();
+        for (int i = 0; i < UnityEngine.Random.Range(2, 3); i++)
         {
             Vector3 rootPos = Vector3.zero;
             do
@@ -129,12 +130,14 @@ public class JinxController : BossEnemyController
         {
             GameObject go = GameObject.Instantiate(holes);
             go.transform.position = rootPos;
-            yield return new WaitForSeconds(2.0f);
-            Destroy(go);
+            holdHoles.Add(go);
+            
         }
         yield return new WaitForSeconds(2.0f);
-        foreach (Vector3 rootPos in pastRootsPos)
-
+        foreach (var go in holdHoles)
+        {
+            Destroy(go);
+        }
         NextAction();
     }
 
