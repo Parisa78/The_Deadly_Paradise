@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 public class JinxController : BossEnemyController
 {
+    public Animator animator;
     public enum Actions
     {
         thunders,
@@ -59,13 +60,17 @@ public class JinxController : BossEnemyController
         switch (currentAttack)
         {
             case Actions.thunders:
+                animator.SetBool("idl", true);
                 currentAttack = Actions.Idle;
                 StartCoroutine(StandIdle());
+                animator.SetBool("idl", true);
                 break;
 
             case Actions.Idle:
+                animator.SetBool("idl", false);
                 currentAttack = Actions.holes;
                 StartCoroutine(HolesAttacks());
+                animator.SetBool("idl", false);
                 break;
 
             case Actions.holes:
@@ -76,6 +81,7 @@ public class JinxController : BossEnemyController
             case Actions.balls:
                 currentAttack = Actions.thunders;
                 StartCoroutine(ThunderAttacks());
+
                 break;
         }
     }
