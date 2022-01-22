@@ -11,8 +11,8 @@ public class lastLevelSceneController : MonoBehaviour
     public void GotAnotherSword()
     {
         gameStatus.instance.unlockedSwordCount++;
-        if (gameStatus.instance.unlockedSwordCount == mustReachSwordCount
-            && gameStatus.instance.shardsCount == mustReachShardCount)
+        if (gameStatus.instance.unlockedSwordCount >= mustReachSwordCount
+            && gameStatus.instance.shardsCount >= mustReachShardCount)
         {
             gameStatus.instance.prevScene = SceneManager.GetActiveScene().name;
             SceneManager.LoadScene("VillagePortals");
@@ -22,8 +22,8 @@ public class lastLevelSceneController : MonoBehaviour
     public void GotAnotherShard()
     {
         gameStatus.instance.shardsCount++;
-        if (gameStatus.instance.unlockedSwordCount == mustReachSwordCount
-            && gameStatus.instance.shardsCount == mustReachShardCount)
+        if (gameStatus.instance.unlockedSwordCount >= mustReachSwordCount
+            && gameStatus.instance.shardsCount >= mustReachShardCount)
         {
             gameStatus.instance.prevScene = SceneManager.GetActiveScene().name;
             SceneManager.LoadScene("VillagePortals");

@@ -9,7 +9,7 @@ public class ShardController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (shardNumber == gameStatus.instance.shardsCount)
+        if (shardNumber <= gameStatus.instance.shardsCount)
             Destroy(this.gameObject); //already got the shard
     }
 

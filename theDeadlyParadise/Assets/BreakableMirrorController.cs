@@ -16,7 +16,8 @@ public class BreakableMirrorController : MonoBehaviour
     {
         if (Array.IndexOf(effectiveSwords, collision.gameObject.tag.ToString()) > -1)  //collision.gameObject. CompareTag(Tags.Sword.ToString()))
         {
-            FindObjectOfType<cyrusInMirrorController>().isFound = true;
+            if (gameObject.name == "MirrorsBreakable") //two objects will reach here, only one needs to tell cyrus he is found
+                FindObjectOfType<cyrusInMirrorController>().Found();
             Destroy(this.gameObject);
         }
     }

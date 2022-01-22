@@ -42,7 +42,6 @@ public class camera_mover : MonoBehaviour
     {
         if (other.gameObject.CompareTag(Tags.Player.ToString()))
         {
-            Debug.Log(player.transform.position.y < transform.position.y);
             switch (direction)
             {
                 case "v":

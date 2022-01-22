@@ -70,9 +70,11 @@
     <Compile Include="Assets\Cainos\Pixel Art Top Down - Basic\Script\PropsAltar.cs" />
     <Compile Include="Assets\Cainos\Pixel Art Top Down - Basic\Script\SpriteColorAnimation.cs" />
     <Compile Include="Assets\Cainos\Pixel Art Top Down - Basic\Script\TopDownCharacterController.cs" />
+    <Compile Include="Assets\FirstSceneController.cs" />
     <Compile Include="Assets\HealthBar.cs" />
     <Compile Include="Assets\HellOfMirrorsEnemySpawner.cs" />
     <Compile Include="Assets\JumpingEnemyController.cs" />
+    <Compile Include="Assets\LightsTriggerController.cs" />
     <Compile Include="Assets\MovingRootController.cs" />
     <Compile Include="Assets\PortalBlockerController.cs" />
     <Compile Include="Assets\PortalController.cs" />

@@ -9,8 +9,8 @@ public class gameStatus : MonoBehaviour
     // For sake of example, assume -1 indicates first scene
     public string prevScene;
     public GameObject UiCanvas;
-    public int unlockedSwordCount=1;
-    public int shardsCount = 0;
+    public int unlockedSwordCount;
+    public int shardsCount;
     public int playerHP;
 
     void Awake()
@@ -31,6 +31,7 @@ public class gameStatus : MonoBehaviour
 
         //get loaded game status
         //Remove the next line when this class gets the loaded data
-        unlockedSwordCount = 1;
+        unlockedSwordCount = 4;
+        shardsCount = 3;
     }
 }

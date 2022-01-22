@@ -11779,6 +11779,49 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 855943887}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &522432302
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 522432304}
+  - component: {fileID: 522432303}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &522432303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 522432302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34766f92ffac38642884d8fd8b39f0fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &522432304
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 522432302}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 12.291941, y: -3.2309644, z: -56.626312}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &526566456 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2055102311959635375, guid: 5b94bf9107369684a8153921f763da38,
@@ -13407,24 +13450,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 84395be60ff2def43bb58fa039614eab, type: 3}
---- !u!1 &682705603 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3240913544560797239, guid: a1ac6cf7e36672b499b9b5dc9a1fab02,
-    type: 3}
-  m_PrefabInstance: {fileID: 1301494158}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &682705604
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 682705603}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34766f92ffac38642884d8fd8b39f0fb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &684641320 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2055102311959635375, guid: 4bd7b41600416b54395bf9936a05dc8e,
@@ -17720,7 +17745,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77db7f0f548925d489233928e26dcbfc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextLevel: 
+  NextLevel: JinxScene
 --- !u!1 &954858244
 GameObject:
   m_ObjectHideFlags: 0
@@ -17890,7 +17915,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77db7f0f548925d489233928e26dcbfc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextLevel: 
+  NextLevel: HellOfMirrors 1
 --- !u!1001 &957309141
 PrefabInstance:
   m_ObjectHideFlags: 0
