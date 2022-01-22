@@ -10,6 +10,7 @@ public class gameStatus : MonoBehaviour
     public string prevScene;
     public GameObject UiCanvas;
     public int unlockedSwordCount=1;
+    public int shardsCount = 0;
     public int playerHP;
 
     void Awake()

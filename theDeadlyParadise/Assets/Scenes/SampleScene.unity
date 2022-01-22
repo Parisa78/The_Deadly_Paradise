@@ -905,6 +905,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   config: {fileID: 11400000, guid: 6bf915678089d554d90759d0ddf04ecb, type: 2}
+  isGoingLeft: 0
 --- !u!58 &1097289703
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1513,50 +1514,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1892091704}
   m_CullTransparentMesh: 0
---- !u!1 &1934896554
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1934896556}
-  - component: {fileID: 1934896555}
-  m_Layer: 0
-  m_Name: HellOfMirrorsEnemySpawner
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1934896555
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1934896554}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c17baa7aa5ad0a54fb44eeda74ebff24, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemy: {fileID: 4768105512958454657, guid: 508fdcb06897cb145aad9c0d8ef70bc9, type: 3}
---- !u!4 &1934896556
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1934896554}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.64086294, y: -0.58210206, z: -2.0799053}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1953829572
 GameObject:
   m_ObjectHideFlags: 0
@@ -1738,6 +1695,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   config: {fileID: 11400000, guid: e39c5fda248d2b046a2e6d3481c3e359, type: 2}
+  seed: {fileID: 0}
+  timeToAttack: 0
 --- !u!61 &2108133132
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1850,3 +1809,72 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &992846538518140807
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 992846539905677867, guid: b9b4a53b9b4c4a74f99c547b840f2e01,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.64086294
+      objectReference: {fileID: 0}
+    - target: {fileID: 992846539905677867, guid: b9b4a53b9b4c4a74f99c547b840f2e01,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.58210206
+      objectReference: {fileID: 0}
+    - target: {fileID: 992846539905677867, guid: b9b4a53b9b4c4a74f99c547b840f2e01,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.0799053
+      objectReference: {fileID: 0}
+    - target: {fileID: 992846539905677867, guid: b9b4a53b9b4c4a74f99c547b840f2e01,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992846539905677867, guid: b9b4a53b9b4c4a74f99c547b840f2e01,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992846539905677867, guid: b9b4a53b9b4c4a74f99c547b840f2e01,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992846539905677867, guid: b9b4a53b9b4c4a74f99c547b840f2e01,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 992846539905677867, guid: b9b4a53b9b4c4a74f99c547b840f2e01,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 992846539905677867, guid: b9b4a53b9b4c4a74f99c547b840f2e01,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992846539905677867, guid: b9b4a53b9b4c4a74f99c547b840f2e01,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992846539905677867, guid: b9b4a53b9b4c4a74f99c547b840f2e01,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992846539905677869, guid: b9b4a53b9b4c4a74f99c547b840f2e01,
+        type: 3}
+      propertyPath: m_Name
+      value: HellOfMirrorsEnemySpawner
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b9b4a53b9b4c4a74f99c547b840f2e01, type: 3}

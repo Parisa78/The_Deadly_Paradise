@@ -31,7 +31,8 @@ public class OakController : BossEnemyController
         currentAttack = Actions.Idle;
         cameraPositionx = 1f / (Camera.main.WorldToViewportPoint(new Vector3(1, 1, 0)).x - 0.5f);
         cameraPositiony = 1f / (Camera.main.WorldToViewportPoint(new Vector3(1, 1, 0)).y - 0.5f);
-        ground_y = GameObject.FindWithTag(Tags.Ground.ToString()).transform.position.y;
+        Bounds boxBounds = GameObject.FindWithTag(Tags.Ground.ToString()).GetComponent<BoxCollider2D>().bounds;
+        ground_y = boxBounds.center.y + boxBounds.extents.y;
         distanceX = transform.position.x;
         StartCoroutine(MoveToTheOtherSide());
     }

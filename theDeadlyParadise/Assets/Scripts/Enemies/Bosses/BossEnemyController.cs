@@ -15,8 +15,16 @@ public class BossEnemyController : RegularEnemyController
 
     public override void GetHurt()
     {
-        base.GetHurt();
+        //toggles hurt animation
+        HP -= playerHitAmount;
         healthBar.SetHealth(HP);
+        if (HP <= 0)
+        {
+            //toggle dying animation
+            Destroy(this.gameObject);
+            FindObjectOfType<ShardController>().gameObject.SetActive(true);
+            FindObjectOfType<lockedSwordController>().gameObject.SetActive(true);
+        }
     }
 
 }

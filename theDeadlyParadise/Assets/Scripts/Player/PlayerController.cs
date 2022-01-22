@@ -292,6 +292,13 @@ public class PlayerController : MonoBehaviour
                     transform.position = GameObject.Find("transmission_scene_4").transform.position + new Vector3(0, 0.8f, 0);
                 }
                 break;
+            case "VillagePortals":
+                if (gameStatus.instance.shardsCount == 0)
+                {
+                    FindObjectOfType<Dialoguemanager>().StartDialogue(new Dialogue("Ace", new string[] { "Oh no! The Master Stone is in pieces!",
+                    "The monsters must have broken it and took the shards!", "I should get them all back."}));
+                }
+                break;
         }
     }
 
