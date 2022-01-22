@@ -217,18 +217,17 @@ public class PlayerController : MonoBehaviour
 
     IEnumerator ChageSpeed()
     {
-        
-        float fastSpeed = moveAmount + moveAmount / 10;
-        moveAmount = fastSpeed;
-        Debug.Log("Sppppppppped"+ moveAmount);
+        for (int i = 0; i < 5; i++)
+        {
+            float fastSpeed = moveAmount + moveAmount / 10;
+            moveAmount = fastSpeed;
+        }
         yield return new WaitForSeconds(5f);
         moveAmount = hold;
-        Debug.Log("Last Sppppppppped" + moveAmount);
     }
 
     public void CallChangeSpeed()
     {
-        Debug.Log("First Sppppppppped" + moveAmount);
         StartCoroutine(ChageSpeed());
     } 
     private void ChangeDirection(Direction direction)
