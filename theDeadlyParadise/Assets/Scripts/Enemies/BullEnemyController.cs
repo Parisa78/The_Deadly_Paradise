@@ -69,8 +69,8 @@ public class BullEnemyController : RegularEnemyController
             else
             {
                 Hit();
-                timeToAttack = config.attackMaxTime;
-            }
+                timeToAttack = Random.Range(config.attackMaxTime - 1f, config.attackMaxTime + 1f);
+        }
         //}
     }
 
@@ -137,6 +137,7 @@ public class BullEnemyController : RegularEnemyController
     {
         //toggles hurt animation
         if (imDead) return;
+        Debug.Log("what");
         HP -= playerHitAmount;
         if (HP <= 0)
         {

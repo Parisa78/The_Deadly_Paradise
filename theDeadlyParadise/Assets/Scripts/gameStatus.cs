@@ -12,7 +12,7 @@ public class gameStatus : MonoBehaviour
     public int unlockedSwordCount;
     public int shardsCount;
     public int playerHP;
-
+    public Vector3 justLoadedPlayerPosition;
     void Awake()
     {
         //load UI

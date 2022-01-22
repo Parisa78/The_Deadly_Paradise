@@ -51,7 +51,7 @@ public class andriomaliusController : RegularEnemyController
             else
             {
                 Hit();
-                timeToAttack = Random.Range(config.attackMaxTime - 1, config.attackMaxTime + 1);
+                timeToAttack = Random.Range(config.attackMaxTime - 1f, config.attackMaxTime + 1f);
             }
         }
     }

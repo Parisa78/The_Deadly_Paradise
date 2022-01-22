@@ -38,7 +38,7 @@ public static class SaveSystem
         }
     }
 
-    public static void ResetData()
+    public static SaveData ResetData()
     {
         BinaryFormatter formatter = new BinaryFormatter();
         string path = Application.persistentDataPath + "/paradise.deadly";
@@ -49,9 +49,11 @@ public static class SaveSystem
         data.hp = 100;
         data.scene = "Village1";
         data.unlockedSwordCount = 1;
+        data.shardsCount = 0;
 
         formatter.Serialize(stream, data);
         stream.Close();
+        return data;
     }
 
 

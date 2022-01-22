@@ -10,6 +10,7 @@ public class SaveData
     public int hp;
     public float[] position;
     public int unlockedSwordCount;
+    public int shardsCount;
 
     public SaveData(PlayerController player)
     {
@@ -17,6 +18,7 @@ public class SaveData
 
         hp = gameStatus.instance.playerHP;
         unlockedSwordCount = gameStatus.instance.unlockedSwordCount;
+        shardsCount = gameStatus.instance.shardsCount;
         position = new float[3];
         position[0] = player.transform.position.x;
         position[1] = player.transform.position.y;
