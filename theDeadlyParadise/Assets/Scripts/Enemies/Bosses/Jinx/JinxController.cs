@@ -11,7 +11,6 @@ public class JinxController : BossEnemyController
         thunders,
         balls,
         holes,
-        summonEnemy,
         Idle
     }
     public GameObject balls;
@@ -26,12 +25,13 @@ public class JinxController : BossEnemyController
     float ground_up_y;
     float ground_down_y;
 
+
     // Start is called before the first frame update
     protected override void Start()
     {
         base.Start();
         effectiveSwords = new string[] { Tags.ElectroSword.ToString() };
-        currentAttack = Actions.Idle;
+        currentAttack = Actions.balls;
         cameraPositionx = 1f / (Camera.main.WorldToViewportPoint(new Vector3(1, 1, 0)).x - 0.5f);
         cameraPositiony = 1f / (Camera.main.WorldToViewportPoint(new Vector3(1, 1, 0)).y - 0.5f);
         Bounds boxBounds = GameObject.FindWithTag(Tags.Ground.ToString()).GetComponent<BoxCollider2D>().bounds;
@@ -59,10 +59,6 @@ public class JinxController : BossEnemyController
         switch (currentAttack)
         {
             case Actions.thunders:
-                currentAttack = Actions.summonEnemy;
-                StartCoroutine(SummonEnenmys());
-                break;
-            case Actions.summonEnemy:
                 currentAttack = Actions.Idle;
                 StartCoroutine(StandIdle());
                 break;
@@ -86,7 +82,7 @@ public class JinxController : BossEnemyController
 
     IEnumerator BallAttacks()
     {
-        base.Hit();
+        //base.Hit();
         var go = GameObject.Instantiate(balls);
         //.GetComponent<BallSubWeaponController>().isGoingLeft = GetComponent<SpriteRenderer>().flipX;
         go.transform.position = this.transform.position + new Vector3(0, 0.25f, 0);
@@ -99,7 +95,7 @@ public class JinxController : BossEnemyController
         {
             go.GetComponent<BallSubWeaponController>().isGoingLeft = false;
         }
-        isAttacking = false;
+        //isAttacking = false;
         yield return new WaitForSeconds(UnityEngine.Random.Range(1.0f, 2.0f));
         NextAction();
     }
@@ -146,18 +142,16 @@ public class JinxController : BossEnemyController
 
     IEnumerator StandIdle()
     {
-        Debug.Log("standing still");
-        yield return new WaitForSeconds(UnityEngine.Random.Range(4.0f, 6.0f));
-        NextAction();
-    }
-
-    IEnumerator SummonEnenmys()
-    {
-        yield return new WaitForSeconds(UnityEngine.Random.Range(1.0f, 2.0f));
-        for (int i = 0; i < UnityEngine.Random.Range(7, 10); i++)
+        float dest;
+        if (transform.position.x > 0)
         {
-
+            dest = -1 * distanceX;
         }
+        else dest = distanceX;
+        transform.position = new Vector3(dest, transform.position.y, transform.position.z);
+        Debug.Log("Im waiting in standidle");
+        yield return new WaitForSeconds(UnityEngine.Random.Range(4.0f, 6.0f));
+        Debug.Log("waiting in stand idle finished");
         NextAction();
     }
 

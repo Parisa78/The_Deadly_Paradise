@@ -421,18 +421,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.024105191, y: 0.03214979}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.953125, y: 2.15625}
+    oldSize: {x: 2.65625, y: 2.9375}
     newSize: {x: 1.8125, y: 2.21875}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.8125, y: 2.21875}
+  m_Size: {x: 1.8607104, y: 2.9260435}
   m_EdgeRadius: 0
 --- !u!212 &756714885
 SpriteRenderer:
@@ -513,12 +513,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   config: {fileID: 11400000, guid: 1e6149e3dca28dd49918556d66f6221b, type: 2}
   healthBar: {fileID: 1581554662}
+  shard: {fileID: 0}
+  sword: {fileID: 0}
   balls: {fileID: 9007069218173395864, guid: 598c5eb52755c3241894a626d0b0aae8, type: 3}
   thunderDanger: {fileID: 8225504195229330851, guid: b2e26624d7de535408cac1bc879f2f33,
     type: 3}
   holes: {fileID: 2710356867590091179, guid: 29345155b67ee164589afcee7a00364c, type: 3}
   thunder: {fileID: 9003171695246903105, guid: 1ec6faf2db0223d408672bcc25c40a29, type: 3}
-  thunderRange: 0
+  thunderRange: 0.5
 --- !u!95 &756714888
 Animator:
   serializedVersion: 3
@@ -887,7 +889,7 @@ GameObject:
   - component: {fileID: 1390847281}
   m_Layer: 0
   m_Name: New Sprite
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
