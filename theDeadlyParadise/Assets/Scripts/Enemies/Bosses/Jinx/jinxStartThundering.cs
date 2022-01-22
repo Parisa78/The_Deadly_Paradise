@@ -8,7 +8,7 @@ public class jinxStartThundering : EnemySubWeaponController
     public GameObject[] enemies;
     public void Die()
     {
-        int go_idx = UnityEngine.Random.Range(0, enemies.Length - 1);
+        int go_idx = UnityEngine.Random.Range(0, enemies.Length);
         var go = GameObject.Instantiate(enemies[go_idx]);
         go.transform.position = transform.parent.transform.position;
         if(go_idx == 2)
