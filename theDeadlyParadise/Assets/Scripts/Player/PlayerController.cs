@@ -34,7 +34,7 @@ public class PlayerController : MonoBehaviour
     bool jumpHeld;
     bool on_ground;
     bool can_jump;
-
+    private float hold;
     private Rigidbody2D rb;
     private bool sp;
 
@@ -48,6 +48,7 @@ public class PlayerController : MonoBehaviour
     }
     void Start()
     {
+        hold = moveAmount;
         canReadInput = true;
         //for changing scene 
         ChangingSceneSettings();
@@ -214,6 +215,22 @@ public class PlayerController : MonoBehaviour
         //}
     }
 
+    IEnumerator ChageSpeed()
+    {
+        
+        float fastSpeed = moveAmount + moveAmount / 10;
+        moveAmount = fastSpeed;
+        Debug.Log("Sppppppppped"+ moveAmount);
+        yield return new WaitForSeconds(5f);
+        moveAmount = hold;
+        Debug.Log("Last Sppppppppped" + moveAmount);
+    }
+
+    public void CallChangeSpeed()
+    {
+        Debug.Log("First Sppppppppped" + moveAmount);
+        StartCoroutine(ChageSpeed());
+    } 
     private void ChangeDirection(Direction direction)
     {
         if (direction == Direction.Left)
