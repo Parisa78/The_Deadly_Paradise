@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpeedPowerUp : MonoBehaviour
+public class HealthPowerUp : MonoBehaviour
 {
-    // Start is called before the first frame update
 
     private bool ifcontinue;
     void Start()
@@ -17,7 +16,8 @@ public class SpeedPowerUp : MonoBehaviour
         if (collision.gameObject.CompareTag(Tags.Player.ToString()) && !ifcontinue)
         {
             ifcontinue = true;
-            collision.gameObject.GetComponent<PlayerController>().CallChangeSpeed();
+            int change = collision.gameObject.GetComponent<PlayerController>().HealthPowerUPAmount();
+            collision.gameObject.GetComponent<PlayerController>().ChangeHealth(change);
             DestroySelf();
         }
     }
