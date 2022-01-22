@@ -88,11 +88,9 @@ public class JinxController : BossEnemyController
 
     IEnumerator BallAttacks()
     {
-        //base.Hit();
         var go = GameObject.Instantiate(balls);
-        //.GetComponent<BallSubWeaponController>().isGoingLeft = GetComponent<SpriteRenderer>().flipX;
         go.transform.position = this.transform.position + new Vector3(0, 0.25f, 0);
-        //anim.Play("Base Layer.PlantAttack", 0, 0.25f);
+
         if (transform.position.x > 0)
         {
             go.GetComponent<BallSubWeaponController>().isGoingLeft = true;
@@ -101,16 +99,42 @@ public class JinxController : BossEnemyController
         {
             go.GetComponent<BallSubWeaponController>().isGoingLeft = false;
         }
-        //isAttacking = false;
         yield return new WaitForSeconds(UnityEngine.Random.Range(1.0f, 2.0f));
         NextAction();
     }
 
     IEnumerator HolesAttacks()
     {
-        //base.Hit();
-        var go = GameObject.Instantiate(balls);
         yield return new WaitForSeconds(UnityEngine.Random.Range(1.0f, 2.0f));
+        var pastRootsPos = new List<Vector3>();
+        for (int i = 0; i < UnityEngine.Random.Range(1, 3); i++)
+        {
+            Vector3 rootPos = Vector3.zero;
+            do
+            {
+                rootPos.x = UnityEngine.Random.Range(-1 * cameraPositionx / 2, cameraPositionx / 2);
+                rootPos.y = UnityEngine.Random.Range(ground_down_y, ground_up_y);
+            }
+            while (!CheckThunderPositionIsValid(rootPos, pastRootsPos));
+            pastRootsPos.Add(rootPos);
+        }
+        foreach (Vector3 rootPos in pastRootsPos)
+        {
+            GameObject go = GameObject.Instantiate(thunderDanger);
+            go.transform.position = rootPos;
+            StartCoroutine(go.GetComponent<jinxThunderDanger>().StartThunderDanger());
+        }
+        yield return new WaitForSeconds(1.1f);
+        foreach (Vector3 rootPos in pastRootsPos)
+        {
+            GameObject go = GameObject.Instantiate(holes);
+            go.transform.position = rootPos;
+            yield return new WaitForSeconds(2.0f);
+            Destroy(go);
+        }
+        yield return new WaitForSeconds(2.0f);
+        foreach (Vector3 rootPos in pastRootsPos)
+
         NextAction();
     }
 

@@ -515,6 +515,7 @@ MonoBehaviour:
   healthBar: {fileID: 1581554662}
   shard: {fileID: 0}
   sword: {fileID: 0}
+  animator: {fileID: 756714888}
   balls: {fileID: 9007069218173395864, guid: 598c5eb52755c3241894a626d0b0aae8, type: 3}
   thunderDanger: {fileID: 8225504195229330851, guid: b2e26624d7de535408cac1bc879f2f33,
     type: 3}
