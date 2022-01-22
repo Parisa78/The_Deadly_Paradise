@@ -32,6 +32,24 @@ TextureImporter:
   - first:
       213: 3543956353651259343
     second: mage-2-122x110_7
+  - first:
+      213: -3107727541661923664
+    second: mage-2-122x110_2
+  - first:
+      213: 3646022208133449295
+    second: mage-2-122x110_3
+  - first:
+      213: 6338929748889868982
+    second: mage-2-122x110_4
+  - first:
+      213: 2525301925108862014
+    second: mage-2-122x110_5
+  - first:
+      213: 6375284824775716488
+    second: mage-2-122x110_6
+  - first:
+      213: 2153041749279515051
+    second: mage-2-122x110_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -121,9 +139,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 60
-        width: 63
-        height: 53
+        y: 56.5
+        width: 62.5
+        height: 56.5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,9 +160,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 62
-        y: 60
-        width: 63
-        height: 53
+        y: 56.5
+        width: 62.5
+        height: 56.5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,10 +180,10 @@ TextureImporter:
       name: mage-2-122x110_2
       rect:
         serializedVersion: 2
-        x: 125
-        y: 60
-        width: 63
-        height: 53
+        x: 124
+        y: 56.5
+        width: 62.5
+        height: 56.5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,8 +191,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d269a9c703ccfd00800000000000000
-      internalID: 1007894854839657173
+      spriteID: 0b60b8c24422fd4d0800000000000000
+      internalID: -3107727541661923664
       vertices: []
       indices: 
       edges: []
@@ -183,10 +201,10 @@ TextureImporter:
       name: mage-2-122x110_3
       rect:
         serializedVersion: 2
-        x: 187
-        y: 60
-        width: 63
-        height: 53
+        x: 186
+        y: 56.5
+        width: 62.5
+        height: 56.5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,8 +212,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24b8223f640410b70800000000000000
-      internalID: 8863436215112862530
+      spriteID: f46cafe71e5499230800000000000000
+      internalID: 3646022208133449295
       vertices: []
       indices: 
       edges: []
@@ -205,9 +223,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 3
-        width: 63
-        height: 54
+        y: 0.5
+        width: 62.5
+        height: 56.5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,8 +233,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26df5cf1ed7e417e0800000000000000
-      internalID: -1795555410212160158
+      spriteID: 6ba9cb2850768f750800000000000000
+      internalID: 6338929748889868982
       vertices: []
       indices: 
       edges: []
@@ -226,9 +244,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 62
-        y: 3
-        width: 63
-        height: 54
+        y: 0.5
+        width: 62.5
+        height: 56.5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,8 +254,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c49e84cb72ebd460800000000000000
-      internalID: 7267651444898960577
+      spriteID: e3c49b4a8bcab0320800000000000000
+      internalID: 2525301925108862014
       vertices: []
       indices: 
       edges: []
@@ -246,10 +264,10 @@ TextureImporter:
       name: mage-2-122x110_6
       rect:
         serializedVersion: 2
-        x: 125
-        y: 3
-        width: 63
-        height: 54
+        x: 124
+        y: 0.5
+        width: 62.5
+        height: 56.5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -257,8 +275,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0cb06457409af420800000000000000
-      internalID: 2664600765575773195
+      spriteID: 88ee1ba35cf897850800000000000000
+      internalID: 6375284824775716488
       vertices: []
       indices: 
       edges: []
@@ -267,10 +285,10 @@ TextureImporter:
       name: mage-2-122x110_7
       rect:
         serializedVersion: 2
-        x: 187
-        y: 3
-        width: 63
-        height: 54
+        x: 186
+        y: 0.5
+        width: 62.5
+        height: 56.5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -278,8 +296,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc73fd6e689ae2130800000000000000
-      internalID: 3543956353651259343
+      spriteID: ba1246c401421ed10800000000000000
+      internalID: 2153041749279515051
       vertices: []
       indices: 
       edges: []
