@@ -18,10 +18,10 @@ public class lockedSwordController : MonoBehaviour
     {
          if(enteredZone && Input.GetKeyUp(KeyCode.Return))
         {
-            gameStatus.instance.unlockedSwordCount++;
-            Debug.Log(gameStatus.instance.unlockedSwordCount);
             Destroy(this.gameObject);
             FindObjectOfType<Dialoguemanager>().StartDialogue(new Dialogue("", new string[] { $"Got The {swordName}!"}, null, AfterGotSwordDialogue));
+            FindObjectOfType<lastLevelSceneController>().GotAnotherSword();
+            Debug.Log(gameStatus.instance.unlockedSwordCount);
         }    
     }
     private void OnTriggerEnter2D(Collider2D collision)
