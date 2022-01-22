@@ -48,6 +48,7 @@ public class PlayerController : MonoBehaviour
     }
     void Start()
     {
+        canReadInput = true;
         //for changing scene 
         ChangingSceneSettings();
         //end
@@ -63,7 +64,6 @@ public class PlayerController : MonoBehaviour
             enterOakScene();
         else
             can_jump = false;
-        canReadInput = true;
     }
 
     private void Update()

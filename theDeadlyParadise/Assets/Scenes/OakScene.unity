@@ -2557,6 +2557,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   config: {fileID: 11400000, guid: d52d59deb4613b64fad63bf6400f9cb9, type: 2}
   healthBar: {fileID: 136285446}
+  shard: {fileID: 1429231971}
+  sword: {fileID: 774320907}
   rootsDanger: {fileID: 8225504195229330851, guid: 74c48161259118a41a0a0d538e8a7af1,
     type: 3}
   sproutingRoots: {fileID: 3083353267252662697, guid: 65b87a44a6f8cf74c9d96872980904f6,
@@ -2683,7 +2685,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.14762115, y: 0.13320991}
@@ -3236,7 +3238,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}

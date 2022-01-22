@@ -6,6 +6,8 @@ public class BossEnemyController : RegularEnemyController
 {
 
     public HealthBar healthBar;
+    public GameObject shard;
+    public GameObject sword;
     // Start is called before the first frame update
     protected override void Start()
     {
@@ -22,8 +24,8 @@ public class BossEnemyController : RegularEnemyController
         {
             //toggle dying animation
             Destroy(this.gameObject);
-            FindObjectOfType<ShardController>().gameObject.SetActive(true);
-            FindObjectOfType<lockedSwordController>().gameObject.SetActive(true);
+            shard.SetActive(true);
+            sword.SetActive(true);
         }
     }
 

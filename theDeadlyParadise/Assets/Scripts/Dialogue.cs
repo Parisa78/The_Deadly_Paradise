@@ -38,6 +38,7 @@ public class DialogueFunctions : MonoBehaviour
     //in default before and after dialogue functions, player can't move until the dialogue is finished
     public static void DefaultBeforeFunction()
     {
+        Debug.Log("don't move!");
         FindObjectOfType<PlayerController>().canReadInput = false;
     }
 
