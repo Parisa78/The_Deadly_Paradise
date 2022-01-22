@@ -18,7 +18,10 @@ public class SaveStatue : MonoBehaviour
     {
         if(Input.GetKeyUp(KeyCode.Return) && Vector3.Distance(transform.position, player.transform.position) < 0.5)
         {
-            SaveSystem.SaveData(player);
+            gameStatus.instance.playerHP = 100;
+            player.healthBar.SetHealth(100);
+            SaveSystem.SaveData(player,
+                Camera.main.transform.position);
             FindObjectOfType<Dialoguemanager>().StartDialogue(dialogue);
         }
     }

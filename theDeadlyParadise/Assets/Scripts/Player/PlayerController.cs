@@ -65,6 +65,16 @@ public class PlayerController : MonoBehaviour
             enterOakScene();
         else
             can_jump = false;
+        if(gameStatus.instance.justLoadedPlayerPosition != null)
+        {
+            //need to use this position and cameras position...
+            transform.position = new Vector3(gameStatus.instance.justLoadedPlayerPosition[0], gameStatus.instance.justLoadedPlayerPosition[1], gameStatus.instance.justLoadedPlayerPosition[2]);
+            Camera.main.transform.position = new Vector3(gameStatus.instance.camPosition[0], gameStatus.instance.camPosition[1], 
+                gameStatus.instance.camPosition[2]);
+            //just once!
+            gameStatus.instance.justLoadedPlayerPosition = null;
+            gameStatus.instance.camPosition = null;
+        }
     }
 
     private void Update()

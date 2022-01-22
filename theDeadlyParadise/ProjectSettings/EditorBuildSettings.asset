@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/VillagePortals.unity
-    guid: b786fc481b1558a4fa9bab337ee9790d
+    path: Assets/Scenes/menu.unity
+    guid: 85d6da49ffe8d02418f5e7f46ade677b
   - enabled: 1
     path: Assets/Scenes/Village1.unity
     guid: db171fdcd3317a04b92b5c3b6c9bffa4
@@ -21,6 +21,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Village4.unity
     guid: bb343326d0bc27746911c1af59c877f8
   - enabled: 1
-    path: Assets/Scenes/menu.unity
-    guid: 85d6da49ffe8d02418f5e7f46ade677b
+    path: Assets/Scenes/VillagePortals.unity
+    guid: b786fc481b1558a4fa9bab337ee9790d
   m_configObjects: {}

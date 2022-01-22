@@ -24,8 +24,9 @@ public class MainMenuController : MonoBehaviour
     {
         gameStatus.instance.shardsCount = data.shardsCount;
         gameStatus.instance.unlockedSwordCount = data.unlockedSwordCount;
-        gameStatus.instance.justLoadedPlayerPosition = new Vector3(data.position[0], data.position[1], data.position[2]);
+        gameStatus.instance.justLoadedPlayerPosition = data.position;
         gameStatus.instance.playerHP = data.hp;
+        gameStatus.instance.camPosition = data.cameraPosition;
         SceneManager.LoadScene(data.scene);
     }
 

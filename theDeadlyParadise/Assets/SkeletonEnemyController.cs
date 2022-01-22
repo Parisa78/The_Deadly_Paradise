@@ -41,7 +41,7 @@ public class SkeletonEnemyController : RegularEnemyController
     // Start is called before the first frame update
     void Awake()
     {
-        effectiveSwords = new string[] { Tags.Sword.ToString(), Tags.FireSword.ToString() };
+        effectiveSwords = new string[] { Tags.Sword.ToString()};
         timeToAttack = config.attackMaxTime;
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
