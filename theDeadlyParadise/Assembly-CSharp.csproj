@@ -83,6 +83,7 @@
     <Compile Include="Assets\Scripts\Dialoguemanager.cs" />
     <Compile Include="Assets\Scripts\Enemies\Bosses\BossEnemyController.cs" />
     <Compile Include="Assets\Scripts\Enemies\Bosses\Jinx\JinxController.cs" />
+    <Compile Include="Assets\Scripts\Enemies\Bosses\Jinx\jinxStartThundering.cs" />
     <Compile Include="Assets\Scripts\Enemies\Bosses\Jinx\jinxThunderDanger.cs" />
     <Compile Include="Assets\Scripts\Enemies\Bosses\Oak\OakController.cs" />
     <Compile Include="Assets\Scripts\Enemies\Bosses\Oak\OakRootsDanger.cs" />

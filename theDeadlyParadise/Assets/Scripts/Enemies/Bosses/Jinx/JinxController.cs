@@ -23,25 +23,35 @@ public class JinxController : BossEnemyController
     float cameraPositionx;
     float cameraPositiony;
     float distanceX;
-    float ground_y;
+    float ground_up_y;
+    float ground_down_y;
 
     // Start is called before the first frame update
     protected override void Start()
     {
         base.Start();
-        effectiveSwords = new string[] { Tags.FireSword.ToString() };
+        effectiveSwords = new string[] { Tags.ElectroSword.ToString() };
         currentAttack = Actions.Idle;
         cameraPositionx = 1f / (Camera.main.WorldToViewportPoint(new Vector3(1, 1, 0)).x - 0.5f);
         cameraPositiony = 1f / (Camera.main.WorldToViewportPoint(new Vector3(1, 1, 0)).y - 0.5f);
-        ground_y = GameObject.FindWithTag(Tags.Ground.ToString()).transform.position.y;
+        Bounds boxBounds = GameObject.FindWithTag(Tags.Ground.ToString()).GetComponent<BoxCollider2D>().bounds;
+        ground_up_y = boxBounds.center.y + boxBounds.extents.y;
+        ground_down_y = boxBounds.center.y - boxBounds.extents.y;
         distanceX = transform.position.x;
-       //StartCoroutine(MoveToTheOtherSide());
+       StartCoroutine(BallAttacks());
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if(transform.position.x > 0)
+        {
+            GetComponent<SpriteRenderer>().flipX = true;
+        }
+        else
+        {
+            GetComponent<SpriteRenderer>().flipX = false;
+        }
     }
 
     private void NextAction()
@@ -50,26 +60,26 @@ public class JinxController : BossEnemyController
         {
             case Actions.thunders:
                 currentAttack = Actions.summonEnemy;
-                StartCoroutine(ThunderAttacks());
+                StartCoroutine(SummonEnenmys());
                 break;
             case Actions.summonEnemy:
                 currentAttack = Actions.Idle;
-                StartCoroutine(SummonEnenmys());
+                StartCoroutine(StandIdle());
                 break;
 
             case Actions.Idle:
                 currentAttack = Actions.holes;
-                StartCoroutine(StandIdle());
+                StartCoroutine(HolesAttacks());
                 break;
 
             case Actions.holes:
                 currentAttack = Actions.balls;
-                StartCoroutine(HolesAttacks());
+                StartCoroutine(BallAttacks());
                 break;
 
             case Actions.balls:
                 currentAttack = Actions.thunders;
-                StartCoroutine(BallAttacks());
+                StartCoroutine(ThunderAttacks());
                 break;
         }
     }
@@ -81,7 +91,14 @@ public class JinxController : BossEnemyController
         //.GetComponent<BallSubWeaponController>().isGoingLeft = GetComponent<SpriteRenderer>().flipX;
         go.transform.position = this.transform.position + new Vector3(0, 0.25f, 0);
         //anim.Play("Base Layer.PlantAttack", 0, 0.25f);
-        go.GetComponent<BallSubWeaponController>().isGoingLeft = GetComponent<SpriteRenderer>().flipX;
+        if (transform.position.x > 0)
+        {
+            go.GetComponent<BallSubWeaponController>().isGoingLeft = true;
+        }
+        else
+        {
+            go.GetComponent<BallSubWeaponController>().isGoingLeft = false;
+        }
         isAttacking = false;
         yield return new WaitForSeconds(UnityEngine.Random.Range(1.0f, 2.0f));
         NextAction();
@@ -99,30 +116,30 @@ public class JinxController : BossEnemyController
     IEnumerator ThunderAttacks()
     {
         yield return new WaitForSeconds(UnityEngine.Random.Range(1.0f, 2.0f));
-        var pastRootsPos = new List<float>();
-        for (int i = 0; i < UnityEngine.Random.Range(5, 7); i++)
+        var pastRootsPos = new List<Vector3>();
+        for (int i = 0; i < UnityEngine.Random.Range(2, 4); i++)
         {
-            float rootPos;
+            Vector3 rootPos = Vector3.zero;
             do
             {
-                rootPos = UnityEngine.Random.Range(-1 * cameraPositionx / 2, cameraPositionx / 2);
+                rootPos.x = UnityEngine.Random.Range(-1 * cameraPositionx / 2, cameraPositionx / 2);
+                rootPos.y = UnityEngine.Random.Range(ground_down_y, ground_up_y);
             }
             while (!CheckThunderPositionIsValid(rootPos, pastRootsPos));
             pastRootsPos.Add(rootPos);
         }
-        foreach (float rootPos in pastRootsPos)
+        foreach (Vector3 rootPos in pastRootsPos)
         {
             GameObject go = GameObject.Instantiate(thunderDanger);
-            go.transform.position = new Vector3(rootPos, ground_y, 0);
-            StartCoroutine(go.GetComponent<OakRootsDanger>().StartRootsDanger());
+            go.transform.position = rootPos;
+            StartCoroutine(go.GetComponent<jinxThunderDanger>().StartThunderDanger());
         }
-        //yield return new WaitForSeconds(1.1f);
-        //foreach (float rootPos in pastRootsPos)
-        //{
-        //    GameObject go = GameObject.Instantiate(sproutingRoots);
-        //    go.transform.position = new Vector3(rootPos, ground_y, 0);
-        //    StartCoroutine(go.GetComponent<OakSproutingRoot>().Sprout());
-        //}
+        yield return new WaitForSeconds(1.1f);
+        foreach (Vector3 rootPos in pastRootsPos)
+        {
+            GameObject go = GameObject.Instantiate(thunder);
+            go.transform.position = rootPos;
+        }
         yield return new WaitForSeconds(2.0f);
         NextAction();
     }
@@ -144,12 +161,12 @@ public class JinxController : BossEnemyController
         NextAction();
     }
 
-    private bool CheckThunderPositionIsValid(float rootPos, List<float> pastRootsPos)
+    private bool CheckThunderPositionIsValid(Vector3 rootPos, List<Vector3> pastRootsPos)
     {
         for (int j = 0; j < pastRootsPos.Count; j++)
         {
             //if new root is in a previous root's range, get another position
-            if (rootPos < pastRootsPos[j] + thunderRange && rootPos > pastRootsPos[j] - thunderRange)
+            if (Vector3.Distance(rootPos, pastRootsPos[j]) < thunderRange)
             {
                 return false;
             }
