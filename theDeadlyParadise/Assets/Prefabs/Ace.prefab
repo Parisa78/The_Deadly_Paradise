@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 3139936263753738495}
   m_Layer: 0
   m_Name: Sword shape
-  m_TagString: FireSword
+  m_TagString: ElectroSword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -402,7 +402,7 @@ MonoBehaviour:
   - {fileID: 1314914631855748238}
   - {fileID: 9117857497258120411}
   - {fileID: 1542351863566812556}
-  - {fileID: 1542351863566812556}
+  - {fileID: 3554771825608102319}
   hitAmount: 25
   animator: {fileID: 786133966}
   canReadInput: 0
@@ -866,7 +866,7 @@ GameObject:
   - component: {fileID: 2387135351791704373}
   m_Layer: 0
   m_Name: Sword shape
-  m_TagString: FireSword
+  m_TagString: GlassSword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

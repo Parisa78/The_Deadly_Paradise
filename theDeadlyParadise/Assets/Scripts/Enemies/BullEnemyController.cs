@@ -34,7 +34,7 @@ public class BullEnemyController : RegularEnemyController
     // Start is called before the first frame update
     void Awake()
     {
-        effectiveSwords = new string[] { Tags.Sword.ToString(), Tags.FireSword.ToString() };
+        effectiveSwords = new string[] { Tags.Sword.ToString(), Tags.FireSword.ToString(), Tags.ElectroSword.ToString() };
         timeToAttack = config.attackMaxTime;
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
@@ -60,8 +60,8 @@ public class BullEnemyController : RegularEnemyController
     // Update is called once per frame
     void Update()
     {
-        //if (!isAttacking)
-        //{
+        if (!imDead)
+        {
             if (timeToAttack > 0)
             {
                 timeToAttack -= Time.deltaTime;
@@ -69,14 +69,14 @@ public class BullEnemyController : RegularEnemyController
             else
             {
                 Hit();
-                timeToAttack = config.attackMaxTime;
+                timeToAttack = Random.Range(config.attackMaxTime - 1f, config.attackMaxTime + 1f);
             }
-        //}
+        }
     }
 
     private void FixedUpdate()
     {
-        if (isAttacking)
+        if (isAttacking && !imDead)
         {
             //Debug.Log(Vector3.Distance(playerPosition, transform.position));
             if (Vector3.Distance(playerPosition, transform.position) < 0.2)
@@ -137,6 +137,7 @@ public class BullEnemyController : RegularEnemyController
     {
         //toggles hurt animation
         if (imDead) return;
+        Debug.Log("what");
         HP -= playerHitAmount;
         if (HP <= 0)
         {

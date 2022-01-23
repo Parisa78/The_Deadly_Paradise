@@ -41,13 +41,13 @@ public class SkeletonEnemyController : RegularEnemyController
     // Start is called before the first frame update
     void Awake()
     {
-        effectiveSwords = new string[] { Tags.Sword.ToString(), Tags.FireSword.ToString() };
+        effectiveSwords = new string[] { Tags.Sword.ToString()};
         timeToAttack = config.attackMaxTime;
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         seeker = GetComponent<Seeker>();
         sp = GetComponent<SpriteRenderer>();
-        InvokeRepeating("UpdatePath", 0f, 2f);
+        InvokeRepeating("UpdatePath", 0f, .5f);
         player = FindObjectOfType<PlayerController>();
         moveAmount = player.moveAmount * 0.8f;
         renderer = GetComponent<Renderer>();
@@ -77,7 +77,7 @@ public class SkeletonEnemyController : RegularEnemyController
             return;
         }
         playerPosition = player.transform.position;
-        if (Vector3.Distance(transform.position, playerPosition) < 1)
+        if (Vector3.Distance(transform.position, playerPosition) < 1 && !imDead)
         {
             if (timeToAttack > 0)
             {
@@ -91,7 +91,7 @@ public class SkeletonEnemyController : RegularEnemyController
             anim.SetBool("Walking", false);
             goNearPlayer = false;
         }
-        else if(!isAttacking)
+        else if(!isAttacking && !imDead)
         {
             goNearPlayer = true;
             anim.SetBool("Walking", true);
@@ -100,7 +100,7 @@ public class SkeletonEnemyController : RegularEnemyController
 
     private void FixedUpdate()
     {
-        if (goNearPlayer)
+        if (goNearPlayer && !imDead)
         {
             if (path == null)
                 return;

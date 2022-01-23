@@ -15,4 +15,4 @@ MonoBehaviour:
   enemyName: Oak
   maxHP: 1000
   attackMaxTime: 0
-  attackAmount: 30
+  attackAmount: 10

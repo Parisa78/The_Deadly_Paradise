@@ -44,5 +44,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prevScene: 
-  UiCanvas: {fileID: 1217477283034727850, guid: 3b2031f11766ca943ba60fdfe9d6069c,
+  UiCanvas: {fileID: 1217477283034727850, guid: d0d2140f07adbbc4d9b9eb505b221a39,
     type: 3}
+  unlockedSwordCount: 0
+  shardsCount: 0
+  playerHP: 0
+  justLoadedPlayerPosition: []
+  camPosition: []

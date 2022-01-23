@@ -46,5 +46,6 @@ public class lockedSwordController : MonoBehaviour
         {
             FindObjectOfType<reeve_dialogue>().GotFireSwordDialogue();
         }
+        DialogueFunctions.DefaultAfterFunction();
     }
 }

@@ -30,7 +30,7 @@ public class andriomaliusController : RegularEnemyController
     // Start is called before the first frame update
     void Awake()
     {
-        effectiveSwords = new string[] { Tags.Sword.ToString(), Tags.FireSword.ToString() };
+        effectiveSwords = new string[] { Tags.FireSword.ToString() };
         timeToAttack = config.attackMaxTime;
         anim = GetComponent<Animator>();
         player = FindObjectOfType<PlayerController>();
@@ -51,7 +51,7 @@ public class andriomaliusController : RegularEnemyController
             else
             {
                 Hit();
-                timeToAttack = Random.Range(config.attackMaxTime - 1, config.attackMaxTime + 1);
+                timeToAttack = Random.Range(config.attackMaxTime - 1f, config.attackMaxTime + 1f);
             }
         }
     }

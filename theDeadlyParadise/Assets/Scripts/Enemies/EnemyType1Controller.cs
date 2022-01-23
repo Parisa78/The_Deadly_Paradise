@@ -37,7 +37,7 @@ public class EnemyType1Controller : RegularEnemyController
             else
             {
                 Hit();
-                timeToAttack = config.attackMaxTime;
+                timeToAttack = Random.Range(config.attackMaxTime - 1f, config.attackMaxTime + 1f);
             }
         }
     }

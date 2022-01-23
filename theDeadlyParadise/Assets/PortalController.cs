@@ -11,7 +11,9 @@ public class PortalController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag(Tags.Player.ToString()))
         {
-            if (NextLevel == "Forest1" && gameStatus.instance.shardsCount == 0) //if it's the first time they're using a portal, they should have gotten the shard
+            if (NextLevel == "Forest1" && gameStatus.instance.shardsCount != 1) //if it's the first time they're using a portal or they have gone through this, they should have gotten the shard
+                return;
+            else if (NextLevel == "JinxScene" && gameStatus.instance.shardsCount != 2) //has already done this
                 return;
             Debug.Log("entering new level");
             gameStatus.instance.prevScene = SceneManager.GetActiveScene().name;
