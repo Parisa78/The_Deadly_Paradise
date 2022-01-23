@@ -38,4 +38,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MirrorsRoom.unity
     guid: ffd89d47fb2a8f84ca5ae458aa5c5107
+  - enabled: 1
+    path: Assets/Scenes/bad_ending_menu.unity
+    guid: 60714e2c2af929547b94ad60b7f56041
+  - enabled: 1
+    path: Assets/Scenes/dead_menu.unity
+    guid: 608e2ca64b1926f4da59fe993efe580c
   m_configObjects: {}

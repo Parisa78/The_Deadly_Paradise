@@ -6,7 +6,7 @@ using System.Runtime.Serialization.Formatters.Binary;
 
 public static class SaveSystem
 {
-    public static void SaveData(PlayerController player, Vector3 mainCamPos)
+    public static void SaveData(Vector3 player, Vector3 mainCamPos)
     {
         BinaryFormatter formatter = new BinaryFormatter();
         string path = Application.persistentDataPath + "/paradise.deadly";
@@ -43,8 +43,7 @@ public static class SaveSystem
         BinaryFormatter formatter = new BinaryFormatter();
         string path = Application.persistentDataPath + "/paradise.deadly";
         FileStream stream = new FileStream(path, FileMode.Create);
-        PlayerController player = new PlayerController();
-        player.transform.position = new Vector3(-0.143068f, 1.602692f, 0);
+        Vector3 player = new Vector3(-0.143068f, 1.602692f, 0);
         var mainCamPos = new Vector3(0, 0, -10);
         SaveData data = new SaveData(player,mainCamPos);
         data.hp = 100;

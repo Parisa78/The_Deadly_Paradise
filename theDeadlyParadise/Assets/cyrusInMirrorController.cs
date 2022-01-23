@@ -140,4 +140,12 @@ public class cyrusInMirrorController : MonoBehaviour
 
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag(Tags.Player.ToString()) && goNearPlayer)
+        {
+            UnityEngine.SceneManagement.SceneManager.LoadScene("dead_menu");
+        }
+    }
 }

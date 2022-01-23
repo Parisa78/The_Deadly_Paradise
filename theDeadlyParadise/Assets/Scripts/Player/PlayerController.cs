@@ -79,6 +79,10 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
+        if(healthBar.health <= 0)
+        {
+            SceneManager.LoadScene("dead_menu");
+        }
         if (canReadInput)
         {
             if (can_jump && on_ground && Input.GetKeyDown(KeyCode.Space))
@@ -337,16 +341,7 @@ public class PlayerController : MonoBehaviour
                 }
                 break;
             case "VillagePortals":
-                if (gameStatus.instance.shardsCount == 0)
-                {
-                    FindObjectOfType<Dialoguemanager>().StartDialogue(new Dialogue("Ace", new string[] { "Oh no! The Master Stone is in pieces!",
-                    "The monsters must have broken it and took the shards!", "I should get them all back."}));
-                }
-                else if(gameStatus.instance.shardsCount == 4)
-                {
-                    FindObjectOfType<Dialoguemanager>().StartDialogue(new Dialogue("", new string[] { 
-                        "Now that we have all the shards, let's give them to old man Reeve.\nI don't know the magic needed to fix them."}));
-                }
+                //dialogues
                 break;
         }
     }

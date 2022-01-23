@@ -35,4 +35,9 @@ public class MainMenuController : MonoBehaviour
         data = SaveSystem.ResetData();
         GoToGame();
     }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
 }

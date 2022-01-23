@@ -63,6 +63,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\BadEndingController.cs" />
     <Compile Include="Assets\BallSubWeaponController.cs" />
     <Compile Include="Assets\BreakableMirrorController.cs" />
     <Compile Include="Assets\Cainos\Pixel Art Top Down - Basic\Script\CameraFollow.cs" />
@@ -77,6 +78,7 @@
     <Compile Include="Assets\LightsTriggerController.cs" />
     <Compile Include="Assets\MainMenuController.cs" />
     <Compile Include="Assets\MovingRootController.cs" />
+    <Compile Include="Assets\PauseMenuController.cs" />
     <Compile Include="Assets\PortalBlockerController.cs" />
     <Compile Include="Assets\PortalController.cs" />
     <Compile Include="Assets\PortalSceneController.cs" />
@@ -118,6 +120,7 @@
     <Compile Include="Assets\andriomaliusSubWeaponController.cs" />
     <Compile Include="Assets\camera_mover.cs" />
     <Compile Include="Assets\cyrusInMirrorController.cs" />
+    <Compile Include="Assets\dialogueTriggerController.cs" />
     <Compile Include="Assets\lastLevelSceneController.cs" />
     <Compile Include="Assets\lockedSwordController.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

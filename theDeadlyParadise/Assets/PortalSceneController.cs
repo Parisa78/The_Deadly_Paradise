@@ -7,12 +7,7 @@ public class PortalSceneController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //TODO: save
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        SaveSystem.SaveData(FindObjectOfType<PlayerController>().transform.position,
+            Camera.main.transform.position);
     }
 }

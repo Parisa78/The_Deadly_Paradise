@@ -5,12 +5,15 @@ using UnityEngine;
 public class PortalBlockerController : MonoBehaviour
 {
     public string effectiveSwordName;
+    public int shardsNeededToMakeThisDisappear;
     public Sprite[] sprites;
     private int spriteIdx;
     // Start is called before the first frame update
     void Start()
     {
         spriteIdx = 0;
+        if (gameStatus.instance.shardsCount >= shardsNeededToMakeThisDisappear)
+            Destroy(this.gameObject);
     }
 
     // Update is called once per frame

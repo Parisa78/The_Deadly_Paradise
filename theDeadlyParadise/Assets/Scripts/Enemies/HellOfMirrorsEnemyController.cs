@@ -50,7 +50,7 @@ public class HellOfMirrorsEnemyController : MonoBehaviour
     void ReachedPlayer()
     {
         
-        if (player.swords[player.swordIdx].GetComponent<SwordMovements>().isInDefenceMode && player.swordIdx == 3) //swordIdx = 3 is GlassSword
+        if (player.swords[player.swordIdx].GetComponent<SwordMovements>().isInDefenceMode && player.swordIdx == 3)
         {
             GetHurt();
         }

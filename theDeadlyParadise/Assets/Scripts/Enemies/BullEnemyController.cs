@@ -60,8 +60,8 @@ public class BullEnemyController : RegularEnemyController
     // Update is called once per frame
     void Update()
     {
-        //if (!isAttacking)
-        //{
+        if (!imDead)
+        {
             if (timeToAttack > 0)
             {
                 timeToAttack -= Time.deltaTime;
@@ -70,13 +70,13 @@ public class BullEnemyController : RegularEnemyController
             {
                 Hit();
                 timeToAttack = Random.Range(config.attackMaxTime - 1f, config.attackMaxTime + 1f);
+            }
         }
-        //}
     }
 
     private void FixedUpdate()
     {
-        if (isAttacking)
+        if (isAttacking && !imDead)
         {
             //Debug.Log(Vector3.Distance(playerPosition, transform.position));
             if (Vector3.Distance(playerPosition, transform.position) < 0.2)

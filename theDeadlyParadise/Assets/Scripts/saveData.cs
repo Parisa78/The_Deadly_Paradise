@@ -13,7 +13,7 @@ public class SaveData
     public int shardsCount;
     public float[] cameraPosition;
 
-    public SaveData(PlayerController player, Vector3 mainCameraPosition)
+    public SaveData(Vector3 playerPos, Vector3 mainCameraPosition)
     {
         scene = SceneManager.GetActiveScene().name;
 
@@ -22,9 +22,9 @@ public class SaveData
         shardsCount = gameStatus.instance.shardsCount;
         position = new float[3];
         cameraPosition = new float[3];
-        position[0] = player.transform.position.x;
-        position[1] = player.transform.position.y;
-        position[2] = player.transform.position.z;
+        position[0] = playerPos.x;
+        position[1] = playerPos.y;
+        position[2] = playerPos.z;
         cameraPosition[0] = mainCameraPosition.x;
         cameraPosition[1] = mainCameraPosition.y;
         cameraPosition[2] = mainCameraPosition.z;

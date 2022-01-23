@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class gameStatus : MonoBehaviour
 {
@@ -17,7 +18,10 @@ public class gameStatus : MonoBehaviour
     void Awake()
     {
         //load UI
-        Instantiate(UiCanvas);
+        if (!SceneManager.GetActiveScene().name.Contains("menu"))
+        {
+            var go = Instantiate(UiCanvas);
+        }
         // If we don't have an instance set - set it now
         if (!instance)
             instance = this;
@@ -27,12 +31,22 @@ public class gameStatus : MonoBehaviour
             Destroy(this.gameObject);
             return;
         }
-        
         DontDestroyOnLoad(this.gameObject);
+        //these won't be loaded if the game is loaded by the reset or continue buttons. these are for testing individual scenes.
+        justLoadedPlayerPosition = null;
+        camPosition = null;
+        playerHP = 100;
+        unlockedSwordCount = 1;
+        shardsCount = 0;
+    }
 
-        //get loaded game status
-        //Remove the next line when this class gets the loaded data
-        unlockedSwordCount = 4;
-        shardsCount = 3;
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape) && !SceneManager.GetActiveScene().name.Contains("menu"))
+        {
+            Debug.Log(UiCanvas.transform.Find("pausedMenu"));
+            FindObjectOfType<Dialoguemanager>().transform.Find("pausedMenu").gameObject.SetActive(true);
+            Time.timeScale = 0;
+        }
     }
 }

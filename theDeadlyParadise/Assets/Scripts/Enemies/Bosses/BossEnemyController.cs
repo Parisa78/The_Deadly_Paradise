@@ -13,6 +13,7 @@ public class BossEnemyController : RegularEnemyController
     {
         base.Start();
         healthBar.SetMaxHealth(config.maxHP);
+        healthBar.SetHealth(config.maxHP);
     }
 
     public override void GetHurt()
@@ -26,6 +27,10 @@ public class BossEnemyController : RegularEnemyController
             Destroy(this.gameObject);
             shard.SetActive(true);
             sword.SetActive(true);
+            foreach(var regularEnemy in FindObjectsOfType<RegularEnemyController>())
+            {
+                Destroy(regularEnemy.gameObject);
+            }
         }
     }
 

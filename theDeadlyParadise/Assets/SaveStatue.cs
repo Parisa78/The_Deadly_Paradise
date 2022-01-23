@@ -20,7 +20,7 @@ public class SaveStatue : MonoBehaviour
         {
             gameStatus.instance.playerHP = 100;
             player.healthBar.SetHealth(100);
-            SaveSystem.SaveData(player,
+            SaveSystem.SaveData(player.transform.position,
                 Camera.main.transform.position);
             FindObjectOfType<Dialoguemanager>().StartDialogue(dialogue);
         }
